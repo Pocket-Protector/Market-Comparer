@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8" />
-<title>DexHawk</title>
+<title>Market Comparer</title>
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <!-- libs -->
 <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
@@ -127,10 +127,10 @@
 /* ============================================================
    CONFIG — you set this like below and we’ll build URLs.
    You used:
-   const RAW_BASE = "https://raw.githubusercontent.com/alanjacob008/dexhawk/";
+   const RAW_BASE = "https://raw.githubusercontent.com/alanjacob008/dexhawk/ | https://raw.githubusercontent.com/Pocket-Protector/Market-Comparer/"";
    We’ll append "main/..." automatically.
    ============================================================ */
-const RAW_BASE = "https://raw.githubusercontent.com/Pocket-Protector/Market-Comparer/"; // <-- your value
+const RAW_BASE = "https://raw.githubusercontent.com/alanjacob008/dexhawk/"; // <-- your value
 const USE_RAW = RAW_BASE.includes("raw.githubusercontent.com");
 const BRANCH = "main"; // change if your data branch differs
 const LATEST_CSV_URL = USE_RAW
