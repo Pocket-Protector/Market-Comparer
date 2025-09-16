@@ -4,10 +4,10 @@
     "market_type": "CROSS",
     "symbol_raw": "BTC-USD",
     "leverage_max": 50,
-    "price_usd": 116783.39169,
-    "volume_24h_usd": 42853003.4227,
-    "open_interest_base": 483.6776,
-    "open_interest_usd": 56485510.61247914,
+    "price_usd": 116654.38869,
+    "volume_24h_usd": 42944130.9092,
+    "open_interest_base": 484.0371,
+    "open_interest_usd": 56465052.0037804,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -15,10 +15,10 @@
     "market_type": "CROSS",
     "symbol_raw": "ETH-USD",
     "leverage_max": 50,
-    "price_usd": 4489.754877,
-    "volume_24h_usd": 86683936.1491,
-    "open_interest_base": 14898.492,
-    "open_interest_usd": 66890577.11694549,
+    "price_usd": 4495.855124,
+    "volume_24h_usd": 89165002.9936,
+    "open_interest_base": 14883.947,
+    "open_interest_usd": 66916069.38529442,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -26,10 +26,10 @@
     "market_type": "CROSS",
     "symbol_raw": "LINK-USD",
     "leverage_max": 10,
-    "price_usd": 23.533878033,
-    "volume_24h_usd": 136328.209,
-    "open_interest_base": 144964.0,
-    "open_interest_usd": 3411565.095175812,
+    "price_usd": 23.565419084,
+    "volume_24h_usd": 127286.664,
+    "open_interest_base": 144997.0,
+    "open_interest_usd": 3416915.0709227477,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -48,10 +48,10 @@
     "market_type": "CROSS",
     "symbol_raw": "CRV-USD",
     "leverage_max": 10,
-    "price_usd": 0.7352338419,
+    "price_usd": 0.7298919567,
     "volume_24h_usd": 23757.166,
     "open_interest_base": 431460.0,
-    "open_interest_usd": 317223.993426174,
+    "open_interest_usd": 314919.183637782,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -59,10 +59,10 @@
     "market_type": "CROSS",
     "symbol_raw": "SOL-USD",
     "leverage_max": 20,
-    "price_usd": 237.84892446,
-    "volume_24h_usd": 11999226.913,
-    "open_interest_base": 65684.2,
-    "open_interest_usd": 15622916.324015532,
+    "price_usd": 237.62,
+    "volume_24h_usd": 11871276.486,
+    "open_interest_base": 65647.3,
+    "open_interest_usd": 15599111.426,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -70,10 +70,10 @@
     "market_type": "CROSS",
     "symbol_raw": "ADA-USD",
     "leverage_max": 10,
-    "price_usd": 0.8778194597,
-    "volume_24h_usd": 173631.952,
-    "open_interest_base": 1518920.0,
-    "open_interest_usd": 1333337.5337275239,
+    "price_usd": 0.8780176177,
+    "volume_24h_usd": 176931.753,
+    "open_interest_base": 1520010.0,
+    "open_interest_usd": 1334595.559080177,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -81,10 +81,10 @@
     "market_type": "CROSS",
     "symbol_raw": "AVAX-USD",
     "leverage_max": 10,
-    "price_usd": 30.01395697,
-    "volume_24h_usd": 2110086.518,
-    "open_interest_base": 102116.0,
-    "open_interest_usd": 3064905.2299485197,
+    "price_usd": 30.03038856,
+    "volume_24h_usd": 1555782.35,
+    "open_interest_base": 102134.1,
+    "open_interest_usd": 3067126.708225896,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -92,10 +92,10 @@
     "market_type": "CROSS",
     "symbol_raw": "FIL-USD",
     "leverage_max": 10,
-    "price_usd": 2.637905162,
-    "volume_24h_usd": 217418.973,
-    "open_interest_base": 132784.0,
-    "open_interest_usd": 350271.599031008,
+    "price_usd": 2.62602375,
+    "volume_24h_usd": 225408.973,
+    "open_interest_base": 130781.0,
+    "open_interest_usd": 343434.01204875,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -103,10 +103,10 @@
     "market_type": "CROSS",
     "symbol_raw": "LTC-USD",
     "leverage_max": 10,
-    "price_usd": 115.04752376,
-    "volume_24h_usd": 78760.323,
-    "open_interest_base": 10645.0,
-    "open_interest_usd": 1224680.8904252,
+    "price_usd": 115.18607442,
+    "volume_24h_usd": 213280.239,
+    "open_interest_base": 11561.1,
+    "open_interest_usd": 1331677.724977062,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -114,10 +114,10 @@
     "market_type": "CROSS",
     "symbol_raw": "DOGE-USD",
     "leverage_max": 10,
-    "price_usd": 0.26823306637,
-    "volume_24h_usd": 3814531.837,
-    "open_interest_base": 11627200.0,
-    "open_interest_usd": 3118799.509297264,
+    "price_usd": 0.2682109409,
+    "volume_24h_usd": 3800790.472,
+    "open_interest_base": 11714800.0,
+    "open_interest_usd": 3142037.53045532,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -125,10 +125,10 @@
     "market_type": "CROSS",
     "symbol_raw": "ATOM-USD",
     "leverage_max": 10,
-    "price_usd": 4.559,
-    "volume_24h_usd": 111761.009,
-    "open_interest_base": 166258.0,
-    "open_interest_usd": 757970.2220000001,
+    "price_usd": 4.542817126,
+    "volume_24h_usd": 111603.483,
+    "open_interest_base": 166269.0,
+    "open_interest_usd": 755329.660722894,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -136,10 +136,10 @@
     "market_type": "CROSS",
     "symbol_raw": "DOT-USD",
     "leverage_max": 10,
-    "price_usd": 4.287008464,
-    "volume_24h_usd": 136045.919,
-    "open_interest_base": 207828.0,
-    "open_interest_usd": 890960.3950561921,
+    "price_usd": 4.265706282,
+    "volume_24h_usd": 127140.748,
+    "open_interest_base": 207841.0,
+    "open_interest_usd": 886588.659357162,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -147,10 +147,10 @@
     "market_type": "CROSS",
     "symbol_raw": "UNI-USD",
     "leverage_max": 10,
-    "price_usd": 9.290716286,
-    "volume_24h_usd": 73312.972,
-    "open_interest_base": 55452.0,
-    "open_interest_usd": 515188.799491272,
+    "price_usd": 9.341,
+    "volume_24h_usd": 92526.52,
+    "open_interest_base": 55362.0,
+    "open_interest_usd": 517136.442,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -158,10 +158,10 @@
     "market_type": "CROSS",
     "symbol_raw": "BCH-USD",
     "leverage_max": 10,
-    "price_usd": 600.3101243,
-    "volume_24h_usd": 13342.683,
+    "price_usd": 601.1955977,
+    "volume_24h_usd": 13336.759,
     "open_interest_base": 594.98,
-    "open_interest_usd": 357172.517756014,
+    "open_interest_usd": 357699.356719546,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -169,10 +169,10 @@
     "market_type": "CROSS",
     "symbol_raw": "TRX-USD",
     "leverage_max": 10,
-    "price_usd": 0.34201286569,
-    "volume_24h_usd": 119123.259,
+    "price_usd": 0.34244497799,
+    "volume_24h_usd": 99735.299,
     "open_interest_base": 1080200.0,
-    "open_interest_usd": 369442.297518338,
+    "open_interest_usd": 369909.065224798,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -180,10 +180,10 @@
     "market_type": "CROSS",
     "symbol_raw": "NEAR-USD",
     "leverage_max": 10,
-    "price_usd": 2.706482593,
-    "volume_24h_usd": 86137.923,
-    "open_interest_base": 106255.0,
-    "open_interest_usd": 287577.307919215,
+    "price_usd": 2.70114507,
+    "volume_24h_usd": 86184.394,
+    "open_interest_base": 106200.0,
+    "open_interest_usd": 286861.606434,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -202,10 +202,10 @@
     "market_type": "CROSS",
     "symbol_raw": "XLM-USD",
     "leverage_max": 10,
-    "price_usd": 0.3851804571,
-    "volume_24h_usd": 382550.187,
-    "open_interest_base": 1446020.0,
-    "open_interest_usd": 556978.644575742,
+    "price_usd": 0.384750404,
+    "volume_24h_usd": 369843.501,
+    "open_interest_base": 1448970.0,
+    "open_interest_usd": 557491.79288388,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -213,10 +213,10 @@
     "market_type": "CROSS",
     "symbol_raw": "ETC-USD",
     "leverage_max": 10,
-    "price_usd": 20.51720688,
-    "volume_24h_usd": 55455.027,
-    "open_interest_base": 5298.3,
-    "open_interest_usd": 108706.317212304,
+    "price_usd": 20.53,
+    "volume_24h_usd": 57269.03,
+    "open_interest_base": 5379.3,
+    "open_interest_usd": 110437.02900000001,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -224,10 +224,10 @@
     "market_type": "CROSS",
     "symbol_raw": "COMP-USD",
     "leverage_max": 5,
-    "price_usd": 44.75,
-    "volume_24h_usd": 10866.675,
+    "price_usd": 44.76238119,
+    "volume_24h_usd": 10875.638,
     "open_interest_base": 5808.2,
-    "open_interest_usd": 259916.94999999998,
+    "open_interest_usd": 259988.862427758,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -235,10 +235,10 @@
     "market_type": "CROSS",
     "symbol_raw": "WLD-USD",
     "leverage_max": 10,
-    "price_usd": 1.496598639,
-    "volume_24h_usd": 370653.854,
-    "open_interest_base": 328076.0,
-    "open_interest_usd": 490998.095088564,
+    "price_usd": 1.506402561,
+    "volume_24h_usd": 371068.285,
+    "open_interest_base": 326541.0,
+    "open_interest_usd": 491902.198671501,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -246,10 +246,10 @@
     "market_type": "CROSS",
     "symbol_raw": "APE-USD",
     "leverage_max": 5,
-    "price_usd": 0.587817527,
+    "price_usd": 0.588797148,
     "volume_24h_usd": 2376.913,
     "open_interest_base": 224183.0,
-    "open_interest_usd": 131778.696655441,
+    "open_interest_usd": 131998.311030084,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -257,10 +257,10 @@
     "market_type": "CROSS",
     "symbol_raw": "APT-USD",
     "leverage_max": 10,
-    "price_usd": 4.453526763,
-    "volume_24h_usd": 140134.42,
-    "open_interest_base": 72900.0,
-    "open_interest_usd": 324662.1010227,
+    "price_usd": 4.451340867,
+    "volume_24h_usd": 131660.553,
+    "open_interest_base": 72939.0,
+    "open_interest_usd": 324676.351498113,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -268,10 +268,10 @@
     "market_type": "CROSS",
     "symbol_raw": "ARB-USD",
     "leverage_max": 10,
-    "price_usd": 0.496948474,
-    "volume_24h_usd": 97475.243,
+    "price_usd": 0.496386114,
+    "volume_24h_usd": 96470.647,
     "open_interest_base": 1160915.0,
-    "open_interest_usd": 576914.93769371,
+    "open_interest_usd": 576262.08553431,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -279,10 +279,10 @@
     "market_type": "CROSS",
     "symbol_raw": "BLUR-USD",
     "leverage_max": 5,
-    "price_usd": 0.0852426213,
-    "volume_24h_usd": 19248.892,
-    "open_interest_base": 586090.0,
-    "open_interest_usd": 49959.847917717,
+    "price_usd": 0.0850423038,
+    "volume_24h_usd": 19326.121,
+    "open_interest_base": 586810.0,
+    "open_interest_usd": 49903.674292878,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -290,10 +290,10 @@
     "market_type": "CROSS",
     "symbol_raw": "LDO-USD",
     "leverage_max": 5,
-    "price_usd": 1.204,
-    "volume_24h_usd": 51866.672,
+    "price_usd": 1.205160474,
+    "volume_24h_usd": 51864.31,
     "open_interest_base": 365791.0,
-    "open_interest_usd": 440412.364,
+    "open_interest_usd": 440836.85494493396,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -301,10 +301,10 @@
     "market_type": "CROSS",
     "symbol_raw": "OP-USD",
     "leverage_max": 10,
-    "price_usd": 0.779439139,
-    "volume_24h_usd": 78851.898,
+    "price_usd": 0.777177181,
+    "volume_24h_usd": 79404.133,
     "open_interest_base": 569414.0,
-    "open_interest_usd": 443823.55789454596,
+    "open_interest_usd": 442535.567341934,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -312,10 +312,10 @@
     "market_type": "CROSS",
     "symbol_raw": "PEPE-USD",
     "leverage_max": 10,
-    "price_usd": 1.09863945578e-05,
-    "volume_24h_usd": 100799.846,
-    "open_interest_base": 84910000000.0,
-    "open_interest_usd": 932854.7619027981,
+    "price_usd": 1.09407768943e-05,
+    "volume_24h_usd": 98659.811,
+    "open_interest_base": 84880000000.0,
+    "open_interest_usd": 928653.142788184,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -323,10 +323,10 @@
     "market_type": "CROSS",
     "symbol_raw": "SEI-USD",
     "leverage_max": 5,
-    "price_usd": 0.3185497861,
-    "volume_24h_usd": 73622.03,
+    "price_usd": 0.3176635944,
+    "volume_24h_usd": 73615.662,
     "open_interest_base": 2705650.0,
-    "open_interest_usd": 861884.228761465,
+    "open_interest_usd": 859486.5041883601,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -334,10 +334,10 @@
     "market_type": "CROSS",
     "symbol_raw": "SHIB-USD",
     "leverage_max": 10,
-    "price_usd": 1.3216608304e-05,
-    "volume_24h_usd": 96651.133,
-    "open_interest_base": 33122000000.0,
-    "open_interest_usd": 437760.50024508795,
+    "price_usd": 1.31750046e-05,
+    "volume_24h_usd": 99251.578,
+    "open_interest_base": 33169000000.0,
+    "open_interest_usd": 437001.72757740004,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -345,10 +345,10 @@
     "market_type": "CROSS",
     "symbol_raw": "SUI-USD",
     "leverage_max": 10,
-    "price_usd": 3.6425548177,
-    "volume_24h_usd": 604328.238,
-    "open_interest_base": 409000.0,
-    "open_interest_usd": 1489804.9204393,
+    "price_usd": 3.6332301029,
+    "volume_24h_usd": 605280.968,
+    "open_interest_base": 408990.0,
+    "open_interest_usd": 1485954.779785071,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -356,10 +356,10 @@
     "market_type": "CROSS",
     "symbol_raw": "XRP-USD",
     "leverage_max": 10,
-    "price_usd": 3.0464156913,
-    "volume_24h_usd": 8720730.949,
-    "open_interest_base": 7460440.0,
-    "open_interest_usd": 22727601.480002172,
+    "price_usd": 3.0483693477,
+    "volume_24h_usd": 8694771.159,
+    "open_interest_base": 7460050.0,
+    "open_interest_usd": 22740987.752309386,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -367,10 +367,10 @@
     "market_type": "CROSS",
     "symbol_raw": "TIA-USD",
     "leverage_max": 10,
-    "price_usd": 1.72275017,
-    "volume_24h_usd": 306607.173,
-    "open_interest_base": 316751.1,
-    "open_interest_usd": 545683.011372687,
+    "price_usd": 1.714,
+    "volume_24h_usd": 309133.865,
+    "open_interest_base": 316387.5,
+    "open_interest_usd": 542288.175,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -378,10 +378,10 @@
     "market_type": "CROSS",
     "symbol_raw": "EIGEN-USD",
     "leverage_max": 5,
-    "price_usd": 1.581532613,
-    "volume_24h_usd": 58167.734,
+    "price_usd": 1.569027611,
+    "volume_24h_usd": 45981.545,
     "open_interest_base": 102541.0,
-    "open_interest_usd": 162171.935669633,
+    "open_interest_usd": 160889.66025955102,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -389,10 +389,10 @@
     "market_type": "CROSS",
     "symbol_raw": "JUP-USD",
     "leverage_max": 5,
-    "price_usd": 0.519307723,
-    "volume_24h_usd": 73601.439,
+    "price_usd": 0.5177070828,
+    "volume_24h_usd": 73596.369,
     "open_interest_base": 471030.0,
-    "open_interest_usd": 244609.51676469002,
+    "open_interest_usd": 243855.567211284,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -400,10 +400,10 @@
     "market_type": "CROSS",
     "symbol_raw": "AAVE-USD",
     "leverage_max": 10,
-    "price_usd": 299.56389444,
-    "volume_24h_usd": 230668.283,
-    "open_interest_base": 7757.1,
-    "open_interest_usd": 2323747.0855605244,
+    "price_usd": 300.76940347,
+    "volume_24h_usd": 238945.231,
+    "open_interest_base": 7782.8,
+    "open_interest_usd": 2340828.113326316,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -411,10 +411,10 @@
     "market_type": "CROSS",
     "symbol_raw": "BNB-USD",
     "leverage_max": 10,
-    "price_usd": 955.9229614,
-    "volume_24h_usd": 215198.488,
+    "price_usd": 954.86271,
+    "volume_24h_usd": 215218.27,
     "open_interest_base": 561.49,
-    "open_interest_usd": 536741.183596486,
+    "open_interest_usd": 536145.8630379,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -422,10 +422,10 @@
     "market_type": "CROSS",
     "symbol_raw": "JTO-USD",
     "leverage_max": 5,
-    "price_usd": 1.867246898,
+    "price_usd": 1.865516483,
     "volume_24h_usd": 5206.953,
     "open_interest_base": 124384.0,
-    "open_interest_usd": 232255.63816083202,
+    "open_interest_usd": 232040.402221472,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -433,10 +433,10 @@
     "market_type": "CROSS",
     "symbol_raw": "ORDI-USD",
     "leverage_max": 5,
-    "price_usd": 9.80334977,
+    "price_usd": 9.78393429,
     "volume_24h_usd": 24737.418,
     "open_interest_base": 7394.5,
-    "open_interest_usd": 72490.869874265,
+    "open_interest_usd": 72347.30210740499,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -455,10 +455,10 @@
     "market_type": "CROSS",
     "symbol_raw": "ICP-USD",
     "leverage_max": 5,
-    "price_usd": 4.78075277,
-    "volume_24h_usd": 17196.085,
+    "price_usd": 4.78821805,
+    "volume_24h_usd": 17191.873,
     "open_interest_base": 59064.4,
-    "open_interest_usd": 282372.293908388,
+    "open_interest_usd": 282813.22619242,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -466,10 +466,10 @@
     "market_type": "CROSS",
     "symbol_raw": "DYM-USD",
     "leverage_max": 5,
-    "price_usd": 0.218809404,
-    "volume_24h_usd": 347.449,
-    "open_interest_base": 106255.0,
-    "open_interest_usd": 23249.59322202,
+    "price_usd": 0.22046023,
+    "volume_24h_usd": 656.753,
+    "open_interest_base": 106711.0,
+    "open_interest_usd": 23525.531603530002,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -477,10 +477,10 @@
     "market_type": "CROSS",
     "symbol_raw": "STRK-USD",
     "leverage_max": 5,
-    "price_usd": 0.13502826,
-    "volume_24h_usd": 36046.204,
+    "price_usd": 0.134941277,
+    "volume_24h_usd": 36312.154,
     "open_interest_base": 1664692.0,
-    "open_interest_usd": 224780.46419592,
+    "open_interest_usd": 224635.664291684,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -499,10 +499,10 @@
     "market_type": "CROSS",
     "symbol_raw": "WOO-USD",
     "leverage_max": 10,
-    "price_usd": 0.0689718999,
+    "price_usd": 0.069027611,
     "volume_24h_usd": 4.05,
     "open_interest_base": 613650.0,
-    "open_interest_usd": 42324.606373635,
+    "open_interest_usd": 42358.793490150005,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -510,10 +510,10 @@
     "market_type": "CROSS",
     "symbol_raw": "PYTH-USD",
     "leverage_max": 5,
-    "price_usd": 0.1655662264,
+    "price_usd": 0.163662168,
     "volume_24h_usd": 23350.314,
     "open_interest_base": 2776920.0,
-    "open_interest_usd": 459764.16541468794,
+    "open_interest_usd": 454476.74756256,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -521,10 +521,10 @@
     "market_type": "CROSS",
     "symbol_raw": "BONK-USD",
     "leverage_max": 10,
-    "price_usd": 2.420810405e-05,
-    "volume_24h_usd": 92732.623,
+    "price_usd": 2.412064825e-05,
+    "volume_24h_usd": 89929.47,
     "open_interest_base": 9699900000.0,
-    "open_interest_usd": 234816.188474595,
+    "open_interest_usd": 233967.875960175,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -543,10 +543,10 @@
     "market_type": "CROSS",
     "symbol_raw": "RENDER-USD",
     "leverage_max": 5,
-    "price_usd": 3.88532056,
-    "volume_24h_usd": 23173.567,
+    "price_usd": 3.87835695,
+    "volume_24h_usd": 23169.795,
     "open_interest_base": 39933.0,
-    "open_interest_usd": 155152.50592248,
+    "open_interest_usd": 154874.42808435002,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -554,10 +554,10 @@
     "market_type": "CROSS",
     "symbol_raw": "STX-USD",
     "leverage_max": 10,
-    "price_usd": 0.662665066,
-    "volume_24h_usd": 6198.354,
+    "price_usd": 0.66052199,
+    "volume_24h_usd": 6096.29,
     "open_interest_base": 578739.0,
-    "open_interest_usd": 383510.117631774,
+    "open_interest_usd": 382269.83597061003,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -565,10 +565,10 @@
     "market_type": "CROSS",
     "symbol_raw": "INJ-USD",
     "leverage_max": 5,
-    "price_usd": 13.78799925,
-    "volume_24h_usd": 97215.914,
-    "open_interest_base": 39787.7,
-    "open_interest_usd": 548592.777759225,
+    "price_usd": 13.78173986,
+    "volume_24h_usd": 101363.898,
+    "open_interest_base": 39515.9,
+    "open_interest_usd": 544597.8541337741,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -576,10 +576,10 @@
     "market_type": "CROSS",
     "symbol_raw": "IMX-USD",
     "leverage_max": 5,
-    "price_usd": 0.685921941,
-    "volume_24h_usd": 221118.682,
+    "price_usd": 0.687,
+    "volume_24h_usd": 221113.021,
     "open_interest_base": 272993.0,
-    "open_interest_usd": 187251.88843941301,
+    "open_interest_usd": 187546.19100000002,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -587,10 +587,10 @@
     "market_type": "CROSS",
     "symbol_raw": "HBAR-USD",
     "leverage_max": 5,
-    "price_usd": 0.23845,
-    "volume_24h_usd": 21303.513,
+    "price_usd": 0.2385054021,
+    "volume_24h_usd": 21261.116,
     "open_interest_base": 533550.0,
-    "open_interest_usd": 127224.9975,
+    "open_interest_usd": 127254.557290455,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -598,10 +598,10 @@
     "market_type": "CROSS",
     "symbol_raw": "ALGO-USD",
     "leverage_max": 5,
-    "price_usd": 0.2384541586,
-    "volume_24h_usd": 29972.48,
+    "price_usd": 0.238547699,
+    "volume_24h_usd": 29970.161,
     "open_interest_base": 1937510.0,
-    "open_interest_usd": 462007.316829086,
+    "open_interest_usd": 462188.55228949,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -609,10 +609,10 @@
     "market_type": "CROSS",
     "symbol_raw": "GRT-USD",
     "leverage_max": 10,
-    "price_usd": 0.0950999999,
-    "volume_24h_usd": 37748.542,
+    "price_usd": 0.094937954,
+    "volume_24h_usd": 37746.684,
     "open_interest_base": 560300.0,
-    "open_interest_usd": 53284.529943969996,
+    "open_interest_usd": 53193.7356262,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -620,10 +620,10 @@
     "market_type": "CROSS",
     "symbol_raw": "MANA-USD",
     "leverage_max": 5,
-    "price_usd": 0.3463731865,
-    "volume_24h_usd": 8336.282,
-    "open_interest_base": 581370.0,
-    "open_interest_usd": 201370.979435505,
+    "price_usd": 0.351077198,
+    "volume_24h_usd": 8752.157,
+    "open_interest_base": 580470.0,
+    "open_interest_usd": 203789.78112305998,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -631,10 +631,10 @@
     "market_type": "CROSS",
     "symbol_raw": "RUNE-USD",
     "leverage_max": 5,
-    "price_usd": 1.279648538,
+    "price_usd": 1.278511404,
     "volume_24h_usd": 13210.557,
     "open_interest_base": 138066.0,
-    "open_interest_usd": 176675.955047508,
+    "open_interest_usd": 176518.95550466402,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -642,10 +642,10 @@
     "market_type": "CROSS",
     "symbol_raw": "AXL-USD",
     "leverage_max": 5,
-    "price_usd": 0.323705867,
+    "price_usd": 0.323511569,
     "volume_24h_usd": 694.453,
     "open_interest_base": 418978.0,
-    "open_interest_usd": 135625.63674392598,
+    "open_interest_usd": 135544.230156482,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -653,10 +653,10 @@
     "market_type": "CROSS",
     "symbol_raw": "AEVO-USD",
     "leverage_max": 5,
-    "price_usd": 0.095133285,
+    "price_usd": 0.095036646,
     "volume_24h_usd": 4123.899,
     "open_interest_base": 269200.0,
-    "open_interest_usd": 25609.880322,
+    "open_interest_usd": 25583.8651032,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -664,10 +664,10 @@
     "market_type": "CROSS",
     "symbol_raw": "ASTR-USD",
     "leverage_max": 5,
-    "price_usd": 0.0237002411,
-    "volume_24h_usd": 0.0,
+    "price_usd": 0.0237194877,
+    "volume_24h_usd": 5.688,
     "open_interest_base": 528350.0,
-    "open_interest_usd": 12522.022385185,
+    "open_interest_usd": 12532.191326295,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -675,10 +675,10 @@
     "market_type": "CROSS",
     "symbol_raw": "SNX-USD",
     "leverage_max": 5,
-    "price_usd": 0.681,
+    "price_usd": 0.68034017,
     "volume_24h_usd": 102995.229,
     "open_interest_base": 269780.0,
-    "open_interest_usd": 183720.18000000002,
+    "open_interest_usd": 183542.1710626,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -686,10 +686,10 @@
     "market_type": "CROSS",
     "symbol_raw": "ARKM-USD",
     "leverage_max": 5,
-    "price_usd": 0.621148459,
+    "price_usd": 0.620609134,
     "volume_24h_usd": 1652.632,
     "open_interest_base": 15521.0,
-    "open_interest_usd": 9640.845232139001,
+    "open_interest_usd": 9632.474368813999,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -697,10 +697,10 @@
     "market_type": "CROSS",
     "symbol_raw": "DYDX-USD",
     "leverage_max": 5,
-    "price_usd": 0.632914844,
-    "volume_24h_usd": 10338.114,
-    "open_interest_base": 1419666.0,
-    "open_interest_usd": 898527.684922104,
+    "price_usd": 0.63034325,
+    "volume_24h_usd": 9140.727,
+    "open_interest_base": 1419612.0,
+    "open_interest_usd": 894842.8418190001,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -708,10 +708,10 @@
     "market_type": "CROSS",
     "symbol_raw": "CHZ-USD",
     "leverage_max": 5,
-    "price_usd": 0.0417158579,
+    "price_usd": 0.0416954227,
     "volume_24h_usd": 53612.272,
     "open_interest_base": 2007100.0,
-    "open_interest_usd": 83727.89839109,
+    "open_interest_usd": 83686.88290117,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -719,10 +719,10 @@
     "market_type": "CROSS",
     "symbol_raw": "WIF-USD",
     "leverage_max": 10,
-    "price_usd": 0.925912956,
-    "volume_24h_usd": 53197.78,
-    "open_interest_base": 198327.0,
-    "open_interest_usd": 183633.538824612,
+    "price_usd": 0.928021208,
+    "volume_24h_usd": 49784.574,
+    "open_interest_base": 198225.0,
+    "open_interest_usd": 183957.0039558,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -730,10 +730,10 @@
     "market_type": "CROSS",
     "symbol_raw": "ETHFI-USD",
     "leverage_max": 5,
-    "price_usd": 1.506705892,
+    "price_usd": 1.510541151,
     "volume_24h_usd": 168.81,
     "open_interest_base": 19118.0,
-    "open_interest_usd": 28805.203243256,
+    "open_interest_usd": 28878.525724818,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -741,10 +741,10 @@
     "market_type": "CROSS",
     "symbol_raw": "TON-USD",
     "leverage_max": 5,
-    "price_usd": 3.178389194,
-    "volume_24h_usd": 222736.561,
+    "price_usd": 3.17497338,
+    "volume_24h_usd": 236016.448,
     "open_interest_base": 154083.0,
-    "open_interest_usd": 489735.74217910203,
+    "open_interest_usd": 489209.42331054,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -752,10 +752,10 @@
     "market_type": "CROSS",
     "symbol_raw": "W-USD",
     "leverage_max": 5,
-    "price_usd": 0.0892306922,
-    "volume_24h_usd": 20327.84,
+    "price_usd": 0.0887300022,
+    "volume_24h_usd": 20310.22,
     "open_interest_base": 654720.0,
-    "open_interest_usd": 58421.118797184005,
+    "open_interest_usd": 58093.307040384,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -774,10 +774,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "MOG-USD",
     "leverage_max": 20,
-    "price_usd": 9.123649459e-07,
+    "price_usd": 9.055587629e-07,
     "volume_24h_usd": 5915.84,
     "open_interest_base": 13840000000.0,
-    "open_interest_usd": 12627.130851255999,
+    "open_interest_usd": 12532.933278536,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -785,10 +785,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "GOAT-USD",
     "leverage_max": 20,
-    "price_usd": 0.0983341691,
+    "price_usd": 0.0981828138,
     "volume_24h_usd": 11233.184,
     "open_interest_base": 99280.0,
-    "open_interest_usd": 9762.616308248,
+    "open_interest_usd": 9747.589754064,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -818,10 +818,10 @@
     "market_type": "CROSS",
     "symbol_raw": "ZRO-USD",
     "leverage_max": 5,
-    "price_usd": 1.932772114,
+    "price_usd": 1.931154913,
     "volume_24h_usd": 1634.451,
     "open_interest_base": 28867.0,
-    "open_interest_usd": 55793.332614838,
+    "open_interest_usd": 55746.648873571,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -829,10 +829,10 @@
     "market_type": "CROSS",
     "symbol_raw": "ZK-USD",
     "leverage_max": 5,
-    "price_usd": 0.0578351644,
-    "volume_24h_usd": 244.178,
+    "price_usd": 0.0578731492,
+    "volume_24h_usd": 241.283,
     "open_interest_base": 1998100.0,
-    "open_interest_usd": 115560.44198764,
+    "open_interest_usd": 115636.33941652,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -840,7 +840,7 @@
     "market_type": "ISOLATED",
     "symbol_raw": "TLOS-USD",
     "leverage_max": 20,
-    "price_usd": 0.0558229114,
+    "price_usd": 0.0558023209,
     "volume_24h_usd": 0.0,
     "open_interest_base": 0.0,
     "open_interest_usd": 0.0,
@@ -851,10 +851,10 @@
     "market_type": "CROSS",
     "symbol_raw": "ONDO-USD",
     "leverage_max": 5,
-    "price_usd": 1.021910955,
-    "volume_24h_usd": 16653.436,
+    "price_usd": 1.02241,
+    "volume_24h_usd": 16646.226,
     "open_interest_base": 182956.0,
-    "open_interest_usd": 186964.74068298002,
+    "open_interest_usd": 187056.04396,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -862,10 +862,10 @@
     "market_type": "CROSS",
     "symbol_raw": "ENA-USD",
     "leverage_max": 5,
-    "price_usd": 0.7029514757,
-    "volume_24h_usd": 111058.935,
-    "open_interest_base": 1328770.0,
-    "open_interest_usd": 934060.8323658891,
+    "price_usd": 0.703012045,
+    "volume_24h_usd": 106816.876,
+    "open_interest_base": 1328710.0,
+    "open_interest_usd": 934099.1343119501,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -873,10 +873,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "IO-USD",
     "leverage_max": 20,
-    "price_usd": 0.632953181,
+    "price_usd": 0.631500685,
     "volume_24h_usd": 37.62,
     "open_interest_base": 26406.0,
-    "open_interest_usd": 16713.761697486,
+    "open_interest_usd": 16675.40708811,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -884,10 +884,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "AR-USD",
     "leverage_max": 20,
-    "price_usd": 7.05782312,
+    "price_usd": 7.0324605,
     "volume_24h_usd": 199.33,
     "open_interest_base": 1284.6,
-    "open_interest_usd": 9066.479579952,
+    "open_interest_usd": 9033.8987583,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -895,10 +895,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "KAS-USD",
     "leverage_max": 20,
-    "price_usd": 0.0859179589,
-    "volume_24h_usd": 2577.183,
+    "price_usd": 0.0859493797,
+    "volume_24h_usd": 1495.485,
     "open_interest_base": 257730.0,
-    "open_interest_usd": 22143.635547297,
+    "open_interest_usd": 22151.733630081,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -906,10 +906,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "NOT-USD",
     "leverage_max": 20,
-    "price_usd": 0.00189462501,
+    "price_usd": 0.0018917567,
     "volume_24h_usd": 0.0,
     "open_interest_base": 555200.0,
-    "open_interest_usd": 1051.895805552,
+    "open_interest_usd": 1050.30331984,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -917,10 +917,10 @@
     "market_type": "CROSS",
     "symbol_raw": "ENS-USD",
     "leverage_max": 5,
-    "price_usd": 23.52176088,
-    "volume_24h_usd": 10385.823,
+    "price_usd": 23.61445383,
+    "volume_24h_usd": 10381.205,
     "open_interest_base": 1695.2,
-    "open_interest_usd": 39874.089043775995,
+    "open_interest_usd": 40031.222132616,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -928,10 +928,10 @@
     "market_type": "CROSS",
     "symbol_raw": "FLOKI-USD",
     "leverage_max": 5,
-    "price_usd": 9.73839535e-05,
-    "volume_24h_usd": 40096.23,
+    "price_usd": 9.73136568e-05,
+    "volume_24h_usd": 40092.43,
     "open_interest_base": 603460000.0,
-    "open_interest_usd": 58767.32057911,
+    "open_interest_usd": 58724.899332528,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -939,10 +939,10 @@
     "market_type": "CROSS",
     "symbol_raw": "TAO-USD",
     "leverage_max": 5,
-    "price_usd": 345.0409479,
+    "price_usd": 345.7858316,
     "volume_24h_usd": 4461.004,
     "open_interest_base": 99.6,
-    "open_interest_usd": 34366.07841084,
+    "open_interest_usd": 34440.26882736,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -961,10 +961,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "SAFE-USD",
     "leverage_max": 20,
-    "price_usd": 0.430046943,
-    "volume_24h_usd": 69.398,
+    "price_usd": 0.42972899,
+    "volume_24h_usd": 21.35,
     "open_interest_base": 143642.0,
-    "open_interest_usd": 61772.802986406,
+    "open_interest_usd": 61727.13158158,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -972,10 +972,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "TAIKO-USD",
     "leverage_max": 20,
-    "price_usd": 0.410354358,
+    "price_usd": 0.410156715,
     "volume_24h_usd": 0.0,
     "open_interest_base": 150000.0,
-    "open_interest_usd": 61553.153699999995,
+    "open_interest_usd": 61523.50725,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -983,10 +983,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "AKT-USD",
     "leverage_max": 20,
-    "price_usd": 1.144136318,
+    "price_usd": 1.14529717,
     "volume_24h_usd": 7005.097,
     "open_interest_base": 56591.0,
-    "open_interest_usd": 64747.818371937996,
+    "open_interest_usd": 64813.512147470006,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -994,10 +994,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "CAKE-USD",
     "leverage_max": 20,
-    "price_usd": 2.527263631,
+    "price_usd": 2.531012404,
     "volume_24h_usd": 0.0,
     "open_interest_base": 10364.0,
-    "open_interest_usd": 26192.560271683997,
+    "open_interest_usd": 26231.412555056002,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -1005,10 +1005,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "BRETT-USD",
     "leverage_max": 20,
-    "price_usd": 0.0495413432,
+    "price_usd": 0.0497498999,
     "volume_24h_usd": 218914.023,
     "open_interest_base": 922760.0,
-    "open_interest_usd": 45714.769851232,
+    "open_interest_usd": 45907.217631724,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -1016,10 +1016,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "SATS-USD",
     "leverage_max": 20,
-    "price_usd": 4.09843395e-08,
+    "price_usd": 4.09163665e-08,
     "volume_24h_usd": 0.0,
     "open_interest_base": 250000000.0,
-    "open_interest_usd": 10.246084875,
+    "open_interest_usd": 10.229091625,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -1027,10 +1027,10 @@
     "market_type": "CROSS",
     "symbol_raw": "BLAST-USD",
     "leverage_max": 5,
-    "price_usd": 0.0024459291,
+    "price_usd": 0.00244497799,
     "volume_24h_usd": 0.0,
     "open_interest_base": 20068100.0,
-    "open_interest_usd": 49085.14977171,
+    "open_interest_usd": 49066.062801119,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -1038,10 +1038,10 @@
     "market_type": "CROSS",
     "symbol_raw": "XMR-USD",
     "leverage_max": 5,
-    "price_usd": 320.3481392,
-    "volume_24h_usd": 103178.59,
+    "price_usd": 319.9199599,
+    "volume_24h_usd": 103172.534,
     "open_interest_base": 1092.96,
-    "open_interest_usd": 350127.702220032,
+    "open_interest_usd": 349659.719372304,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -1049,10 +1049,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "THETA-USD",
     "leverage_max": 20,
-    "price_usd": 0.827287584,
+    "price_usd": 0.823912967,
     "volume_24h_usd": 0.0,
     "open_interest_base": 21646.0,
-    "open_interest_usd": 17907.467043264,
+    "open_interest_usd": 17834.420083682002,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -1060,10 +1060,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "ENJ-USD",
     "leverage_max": 20,
-    "price_usd": 0.0699279711,
+    "price_usd": 0.0697766631,
     "volume_24h_usd": 0.0,
     "open_interest_base": 51860.0,
-    "open_interest_usd": 3626.464581246,
+    "open_interest_usd": 3618.617748366,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -1071,10 +1071,10 @@
     "market_type": "CROSS",
     "symbol_raw": "1INCH-USD",
     "leverage_max": 5,
-    "price_usd": 0.2586117021,
+    "price_usd": 0.2586560055,
     "volume_24h_usd": 17204.714,
     "open_interest_base": 1285930.0,
-    "open_interest_usd": 332556.54608145304,
+    "open_interest_usd": 332613.517152615,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -1082,10 +1082,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "XTZ-USD",
     "leverage_max": 20,
-    "price_usd": 0.7718859429,
+    "price_usd": 0.7721735228,
     "volume_24h_usd": 0.0,
     "open_interest_base": 59610.0,
-    "open_interest_usd": 46012.121056269,
+    "open_interest_usd": 46029.263694108,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -1093,10 +1093,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "UMA-USD",
     "leverage_max": 20,
-    "price_usd": 1.337017406,
-    "volume_24h_usd": 94271.528,
+    "price_usd": 1.338585434,
+    "volume_24h_usd": 0.0,
     "open_interest_base": 11787.0,
-    "open_interest_usd": 15759.424164521999,
+    "open_interest_usd": 15777.906510558001,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -1104,10 +1104,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "CVX-USD",
     "leverage_max": 20,
-    "price_usd": 3.416600678,
+    "price_usd": 3.409,
     "volume_24h_usd": 36285.641,
     "open_interest_base": 3653.0,
-    "open_interest_usd": 12480.842276734,
+    "open_interest_usd": 12453.077,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -1115,10 +1115,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "SUSHI-USD",
     "leverage_max": 20,
-    "price_usd": 0.7943971985,
+    "price_usd": 0.7917166866,
     "volume_24h_usd": 22077.56,
     "open_interest_base": 2710.0,
-    "open_interest_usd": 2152.816407935,
+    "open_interest_usd": 2145.552220686,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -1126,10 +1126,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "ZRX-USD",
     "leverage_max": 20,
-    "price_usd": 0.2693346673,
+    "price_usd": 0.269281,
     "volume_24h_usd": 0.0,
     "open_interest_base": 290.0,
-    "open_interest_usd": 78.107053517,
+    "open_interest_usd": 78.09149,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -1137,10 +1137,10 @@
     "market_type": "CROSS",
     "symbol_raw": "PENDLE-USD",
     "leverage_max": 5,
-    "price_usd": 4.985892946,
+    "price_usd": 4.980522657,
     "volume_24h_usd": 16659.73,
     "open_interest_base": 17251.0,
-    "open_interest_usd": 86011.639211446,
+    "open_interest_usd": 85918.996355907,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -1148,7 +1148,7 @@
     "market_type": "ISOLATED",
     "symbol_raw": "DEGEN-USD",
     "leverage_max": 20,
-    "price_usd": 0.003537657393,
+    "price_usd": 0.0035713566,
     "volume_24h_usd": 0.0,
     "open_interest_base": 0.0,
     "open_interest_usd": 0.0,
@@ -1159,10 +1159,10 @@
     "market_type": "CROSS",
     "symbol_raw": "MNT-USD",
     "leverage_max": 5,
-    "price_usd": 1.6788988596,
-    "volume_24h_usd": 548.44,
+    "price_usd": 1.7263117112,
+    "volume_24h_usd": 582.583,
     "open_interest_base": 1460.0,
-    "open_interest_usd": 2451.192335016,
+    "open_interest_usd": 2520.415098352,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -1170,10 +1170,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "JASMY-USD",
     "leverage_max": 20,
-    "price_usd": 0.01444188875,
+    "price_usd": 0.01445778311,
     "volume_24h_usd": 4963.907,
     "open_interest_base": 210900.0,
-    "open_interest_usd": 3045.794337375,
+    "open_interest_usd": 3049.1464578990003,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -1181,10 +1181,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "CORE-USD",
     "leverage_max": 20,
-    "price_usd": 0.448679471,
+    "price_usd": 0.448079231,
     "volume_24h_usd": 0.0,
     "open_interest_base": 3181.0,
-    "open_interest_usd": 1427.249397251,
+    "open_interest_usd": 1425.340033811,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -1192,10 +1192,10 @@
     "market_type": "CROSS",
     "symbol_raw": "PEOPLE-USD",
     "leverage_max": 5,
-    "price_usd": 0.02080832332,
+    "price_usd": 0.02076130452,
     "volume_24h_usd": 36.198,
     "open_interest_base": 498000.0,
-    "open_interest_usd": 10362.545013359999,
+    "open_interest_usd": 10339.12965096,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -1203,10 +1203,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "GMX-USD",
     "leverage_max": 20,
-    "price_usd": 15.32174077,
+    "price_usd": 15.32766383,
     "volume_24h_usd": 0.0,
     "open_interest_base": 64.1,
-    "open_interest_usd": 982.1235833569999,
+    "open_interest_usd": 982.503251503,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -1214,10 +1214,10 @@
     "market_type": "CROSS",
     "symbol_raw": "POPCAT-USD",
     "leverage_max": 5,
-    "price_usd": 0.2725330203,
+    "price_usd": 0.2727658077,
     "volume_24h_usd": 0.0,
     "open_interest_base": 10750.0,
-    "open_interest_usd": 2929.729968225,
+    "open_interest_usd": 2932.232432775,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -1225,10 +1225,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "PRIME-USD",
     "leverage_max": 20,
-    "price_usd": 2.016403361,
+    "price_usd": 2.008851925,
     "volume_24h_usd": 0.0,
     "open_interest_base": 563.0,
-    "open_interest_usd": 1135.235092243,
+    "open_interest_usd": 1130.983633775,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -1236,10 +1236,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "GALA-USD",
     "leverage_max": 20,
-    "price_usd": 0.01711455727,
+    "price_usd": 0.017043,
     "volume_24h_usd": 0.0,
     "open_interest_base": 1003800.0,
-    "open_interest_usd": 17179.592587626,
+    "open_interest_usd": 17107.7634,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -1247,10 +1247,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "AXS-USD",
     "leverage_max": 20,
-    "price_usd": 2.475118559,
+    "price_usd": 2.478239119,
     "volume_24h_usd": 499.546,
     "open_interest_base": 747.0,
-    "open_interest_usd": 1848.9135635730001,
+    "open_interest_usd": 1851.244621893,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -1258,10 +1258,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "XAI-USD",
     "leverage_max": 20,
-    "price_usd": 0.0507238509,
+    "price_usd": 0.0506402647,
     "volume_24h_usd": 17.85,
     "open_interest_base": 270030.0,
-    "open_interest_usd": 13696.961458527,
+    "open_interest_usd": 13674.390676941,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -1269,10 +1269,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "MEW-USD",
     "leverage_max": 20,
-    "price_usd": 0.0030770766,
+    "price_usd": 0.003075258574,
     "volume_24h_usd": 0.0,
     "open_interest_base": 4374000.0,
-    "open_interest_usd": 13459.1330484,
+    "open_interest_usd": 13451.181002676,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -1280,10 +1280,10 @@
     "market_type": "CROSS",
     "symbol_raw": "BEAM-USD",
     "leverage_max": 5,
-    "price_usd": 0.00757755008,
+    "price_usd": 0.00756970233,
     "volume_24h_usd": 0.0,
     "open_interest_base": 1968600.0,
-    "open_interest_usd": 14917.165087488,
+    "open_interest_usd": 14901.716006838,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -1291,10 +1291,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "NEO-USD",
     "leverage_max": 20,
-    "price_usd": 6.66259323,
+    "price_usd": 6.66588294,
     "volume_24h_usd": 0.0,
     "open_interest_base": 1259.8,
-    "open_interest_usd": 8393.534951153999,
+    "open_interest_usd": 8397.679327812,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -1302,10 +1302,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "EGLD-USD",
     "leverage_max": 20,
-    "price_usd": 14.03711415,
+    "price_usd": 14.02,
     "volume_24h_usd": 4897.789,
     "open_interest_base": 756.6,
-    "open_interest_usd": 10620.48056589,
+    "open_interest_usd": 10607.532,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -1313,7 +1313,7 @@
     "market_type": "ISOLATED",
     "symbol_raw": "ALT-USD",
     "leverage_max": 20,
-    "price_usd": 0.0340136054,
+    "price_usd": 0.0339904207,
     "volume_24h_usd": 0.0,
     "open_interest_base": 0.0,
     "open_interest_usd": 0.0,
@@ -1324,7 +1324,7 @@
     "market_type": "ISOLATED",
     "symbol_raw": "PIXEL-USD",
     "leverage_max": 20,
-    "price_usd": 0.0330254724,
+    "price_usd": 0.0327428613,
     "volume_24h_usd": 0.0,
     "open_interest_base": 0.0,
     "open_interest_usd": 0.0,
@@ -1335,7 +1335,7 @@
     "market_type": "ISOLATED",
     "symbol_raw": "TURBO-USD",
     "leverage_max": 20,
-    "price_usd": 0.004097864503,
+    "price_usd": 0.004091818127,
     "volume_24h_usd": 0.0,
     "open_interest_base": 0.0,
     "open_interest_usd": 0.0,
@@ -1346,7 +1346,7 @@
     "market_type": "ISOLATED",
     "symbol_raw": "BOME-USD",
     "leverage_max": 20,
-    "price_usd": 0.002057528764,
+    "price_usd": 0.002051841149,
     "volume_24h_usd": 0.0,
     "open_interest_base": 0.0,
     "open_interest_usd": 0.0,
@@ -1357,10 +1357,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "TRB-USD",
     "leverage_max": 20,
-    "price_usd": 35.8554652,
+    "price_usd": 35.7828489,
     "volume_24h_usd": 0.0,
     "open_interest_base": 3.1,
-    "open_interest_usd": 111.15194212,
+    "open_interest_usd": 110.92683158999999,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -1368,10 +1368,10 @@
     "market_type": "CROSS",
     "symbol_raw": "ZEN-USD",
     "leverage_max": 5,
-    "price_usd": 7.328781875,
+    "price_usd": 7.340670335,
     "volume_24h_usd": 0.0,
     "open_interest_base": 79.0,
-    "open_interest_usd": 578.973768125,
+    "open_interest_usd": 579.912956465,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -1379,7 +1379,7 @@
     "market_type": "ISOLATED",
     "symbol_raw": "BICO-USD",
     "leverage_max": 20,
-    "price_usd": 0.0996830731,
+    "price_usd": 0.0996447725,
     "volume_24h_usd": 0.0,
     "open_interest_base": 0.0,
     "open_interest_usd": 0.0,
@@ -1390,10 +1390,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "OM-USD",
     "leverage_max": 20,
-    "price_usd": 0.2124899154,
+    "price_usd": 0.2120848339,
     "volume_24h_usd": 0.0,
     "open_interest_base": 10210.0,
-    "open_interest_usd": 2169.522036234,
+    "open_interest_usd": 2165.386154119,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -1445,7 +1445,7 @@
     "market_type": "ISOLATED",
     "symbol_raw": "MICHI-USD",
     "leverage_max": 20,
-    "price_usd": 0.0228380809,
+    "price_usd": 0.0225409218,
     "volume_24h_usd": 0.0,
     "open_interest_base": 0.0,
     "open_interest_usd": 0.0,
@@ -1478,10 +1478,10 @@
     "market_type": "CROSS",
     "symbol_raw": "PAXG-USD",
     "leverage_max": 5,
-    "price_usd": 3698.539759,
+    "price_usd": 3698.499711,
     "volume_24h_usd": 344.383,
     "open_interest_base": 23.962,
-    "open_interest_usd": 88624.40970515799,
+    "open_interest_usd": 88623.450074982,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -1500,10 +1500,10 @@
     "market_type": "CROSS",
     "symbol_raw": "DRIFT-USD",
     "leverage_max": 5,
-    "price_usd": 0.6867933966,
-    "volume_24h_usd": 299064.785,
-    "open_interest_base": 51490.0,
-    "open_interest_usd": 35362.991990934,
+    "price_usd": 0.67970385,
+    "volume_24h_usd": 332090.29,
+    "open_interest_base": 53120.0,
+    "open_interest_usd": 36105.868512,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -1544,10 +1544,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "OSMO-USD",
     "leverage_max": 5,
-    "price_usd": 0.1625859329,
+    "price_usd": 0.1625906203,
     "volume_24h_usd": 0.0,
     "open_interest_base": 26710.0,
-    "open_interest_usd": 4342.670267759,
+    "open_interest_usd": 4342.795468212999,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -1555,7 +1555,7 @@
     "market_type": "ISOLATED",
     "symbol_raw": "NEIRO-USD",
     "leverage_max": 20,
-    "price_usd": 0.04895263228,
+    "price_usd": 0.04891610473,
     "volume_24h_usd": 0.0,
     "open_interest_base": 0.0,
     "open_interest_usd": 0.0,
@@ -1566,10 +1566,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "HNT-USD",
     "leverage_max": 20,
-    "price_usd": 2.6232,
+    "price_usd": 2.620803708,
     "volume_24h_usd": 0.0,
     "open_interest_base": 13071.0,
-    "open_interest_usd": 34287.847200000004,
+    "open_interest_usd": 34256.525267268,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -1588,7 +1588,7 @@
     "market_type": "ISOLATED",
     "symbol_raw": "SUNDOG-USD",
     "leverage_max": 20,
-    "price_usd": 0.0356842737,
+    "price_usd": 0.0353141256,
     "volume_24h_usd": 0.0,
     "open_interest_base": 0.0,
     "open_interest_usd": 0.0,
@@ -1621,10 +1621,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "CETUS-USD",
     "leverage_max": 20,
-    "price_usd": 0.09095138055,
+    "price_usd": 0.09043617446,
     "volume_24h_usd": 0.0,
     "open_interest_base": 105400.0,
-    "open_interest_usd": 9586.27550997,
+    "open_interest_usd": 9531.972788084,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -1643,7 +1643,7 @@
     "market_type": "ISOLATED",
     "symbol_raw": "QTUM-USD",
     "leverage_max": 20,
-    "price_usd": 2.432873149,
+    "price_usd": 2.434617308,
     "volume_24h_usd": 0.0,
     "open_interest_base": 0.0,
     "open_interest_usd": 0.0,
@@ -1654,7 +1654,7 @@
     "market_type": "ISOLATED",
     "symbol_raw": "ONT-USD",
     "leverage_max": 20,
-    "price_usd": 0.1389067515,
+    "price_usd": 0.138610962,
     "volume_24h_usd": 0.0,
     "open_interest_base": 0.0,
     "open_interest_usd": 0.0,
@@ -1676,10 +1676,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "PERP-USD",
     "leverage_max": 20,
-    "price_usd": 0.2616308154,
+    "price_usd": 0.2615999999,
     "volume_24h_usd": 11000.0,
     "open_interest_base": 40030.0,
-    "open_interest_usd": 10473.081540461999,
+    "open_interest_usd": 10471.847995996999,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -1698,7 +1698,7 @@
     "market_type": "ISOLATED",
     "symbol_raw": "ORDER-USD",
     "leverage_max": 20,
-    "price_usd": 0.1434973989,
+    "price_usd": 0.1433889717,
     "volume_24h_usd": 0.0,
     "open_interest_base": 0.0,
     "open_interest_usd": 0.0,
@@ -1720,7 +1720,7 @@
     "market_type": "ISOLATED",
     "symbol_raw": "CLV-USD",
     "leverage_max": 20,
-    "price_usd": 0.0199,
+    "price_usd": 0.02,
     "volume_24h_usd": 0.0,
     "open_interest_base": 0.0,
     "open_interest_usd": 0.0,
@@ -1742,10 +1742,10 @@
     "market_type": "CROSS",
     "symbol_raw": "POL-USD",
     "leverage_max": 5,
-    "price_usd": 0.2586125241,
+    "price_usd": 0.2586290929,
     "volume_24h_usd": 21880.749,
     "open_interest_base": 781940.0,
-    "open_interest_usd": 202219.47709475402,
+    "open_interest_usd": 202232.43290222602,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -1753,10 +1753,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "RAY-USD",
     "leverage_max": 20,
-    "price_usd": 3.256306768,
+    "price_usd": 3.247052063,
     "volume_24h_usd": 0.0,
     "open_interest_base": 1937.0,
-    "open_interest_usd": 6307.466209616,
+    "open_interest_usd": 6289.539846031,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -1764,10 +1764,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "PNUT-USD",
     "leverage_max": 20,
-    "price_usd": 0.245757582,
+    "price_usd": 0.244398879,
     "volume_24h_usd": 0.0,
     "open_interest_base": 82092.0,
-    "open_interest_usd": 20174.731421544002,
+    "open_interest_usd": 20063.192774868003,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -1775,10 +1775,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "MOODENG-USD",
     "leverage_max": 20,
-    "price_usd": 0.1752876438,
-    "volume_24h_usd": 44056.507,
+    "price_usd": 0.1758,
+    "volume_24h_usd": 44012.875,
     "open_interest_base": 103930.0,
-    "open_interest_usd": 18217.644820134,
+    "open_interest_usd": 18270.894,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -1786,10 +1786,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "ID-USD",
     "leverage_max": 20,
-    "price_usd": 0.1604702351,
+    "price_usd": 0.1610444177,
     "volume_24h_usd": 0.0,
     "open_interest_base": 40.0,
-    "open_interest_usd": 6.418809404,
+    "open_interest_usd": 6.441776708,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -1797,10 +1797,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "XYO-USD",
     "leverage_max": 20,
-    "price_usd": 0.010450224808,
+    "price_usd": 0.010428214107,
     "volume_24h_usd": 0.0,
     "open_interest_base": 49000.0,
-    "open_interest_usd": 512.061015592,
+    "open_interest_usd": 510.982491243,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -1808,10 +1808,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "ZEC-USD",
     "leverage_max": 20,
-    "price_usd": 51.52531266,
+    "price_usd": 51.69584792,
     "volume_24h_usd": 33022.113,
     "open_interest_base": 178.1,
-    "open_interest_usd": 9176.658184745998,
+    "open_interest_usd": 9207.030514552,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -1819,10 +1819,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "KSM-USD",
     "leverage_max": 20,
-    "price_usd": 15.78789394,
+    "price_usd": 15.78542897,
     "volume_24h_usd": 0.0,
     "open_interest_base": 280.0,
-    "open_interest_usd": 4420.6103032,
+    "open_interest_usd": 4419.9201116,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -1830,10 +1830,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "GRASS-USD",
     "leverage_max": 20,
-    "price_usd": 0.8258129064,
+    "price_usd": 0.826222101,
     "volume_24h_usd": 21411.378,
     "open_interest_base": 11880.0,
-    "open_interest_usd": 9810.657328032,
+    "open_interest_usd": 9815.51855988,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -1852,10 +1852,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "SKL-USD",
     "leverage_max": 20,
-    "price_usd": 0.027658295,
+    "price_usd": 0.02762104841,
     "volume_24h_usd": 0.0,
     "open_interest_base": 1340200.0,
-    "open_interest_usd": 37067.646959,
+    "open_interest_usd": 37017.729079082004,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -1863,10 +1863,10 @@
     "market_type": "CROSS",
     "symbol_raw": "ATH-USD",
     "leverage_max": 5,
-    "price_usd": 0.06484093637,
-    "volume_24h_usd": 446081.39,
+    "price_usd": 0.06486594637,
+    "volume_24h_usd": 445205.036,
     "open_interest_base": 366800.0,
-    "open_interest_usd": 23783.655460516,
+    "open_interest_usd": 23792.829128515998,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -1907,10 +1907,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "AERO-USD",
     "leverage_max": 20,
-    "price_usd": 1.229370005,
+    "price_usd": 1.262848751,
     "volume_24h_usd": 6008.745,
     "open_interest_base": 26065.0,
-    "open_interest_usd": 32043.529180325,
+    "open_interest_usd": 32916.152694815,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -1918,7 +1918,7 @@
     "market_type": "ISOLATED",
     "symbol_raw": "PIRATE-USD",
     "leverage_max": 20,
-    "price_usd": 0.0314728614,
+    "price_usd": 0.0314614587,
     "volume_24h_usd": 0.0,
     "open_interest_base": 0.0,
     "open_interest_usd": 0.0,
@@ -1951,10 +1951,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "VET-USD",
     "leverage_max": 20,
-    "price_usd": 0.02454227113,
+    "price_usd": 0.02455982392,
     "volume_24h_usd": 0.0,
     "open_interest_base": 993200.0,
-    "open_interest_usd": 24375.383686316,
+    "open_interest_usd": 24392.817117344002,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -1962,10 +1962,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "YFI-USD",
     "leverage_max": 20,
-    "price_usd": 5464.732366,
+    "price_usd": 5464.185674,
     "volume_24h_usd": 0.0,
     "open_interest_base": 0.004,
-    "open_interest_usd": 21.858929464000003,
+    "open_interest_usd": 21.856742696,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -1973,10 +1973,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "G-USD",
     "leverage_max": 20,
-    "price_usd": 0.01137013048,
+    "price_usd": 0.01139455782,
     "volume_24h_usd": 0.0,
     "open_interest_base": 2600.0,
-    "open_interest_usd": 29.562339248,
+    "open_interest_usd": 29.625850332,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -1984,10 +1984,10 @@
     "market_type": "CROSS",
     "symbol_raw": "MOVE-USD",
     "leverage_max": 5,
-    "price_usd": 0.1294217687,
+    "price_usd": 0.1296105284,
     "volume_24h_usd": 505792.992,
     "open_interest_base": 156350.0,
-    "open_interest_usd": 20235.093536245,
+    "open_interest_usd": 20264.60611534,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -1995,10 +1995,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "FARTCOIN,RAYDIUM,9BB6NFECJBCTNNLFKO2FQVQBQ8HHM13KCYYCDQBGPUMP-USD",
     "leverage_max": 20,
-    "price_usd": 0.8459,
+    "price_usd": 0.842945581,
     "volume_24h_usd": 0.0,
     "open_interest_base": 620.0,
-    "open_interest_usd": 524.458,
+    "open_interest_usd": 522.6262602200001,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -2006,10 +2006,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "QNT-USD",
     "leverage_max": 20,
-    "price_usd": 100.4302151,
+    "price_usd": 100.15170443,
     "volume_24h_usd": 14717.55,
     "open_interest_base": 34.7,
-    "open_interest_usd": 3484.9284639700004,
+    "open_interest_usd": 3475.264143721,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -2017,10 +2017,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "MOCA-USD",
     "leverage_max": 20,
-    "price_usd": 0.06895010305,
+    "price_usd": 0.06900760304,
     "volume_24h_usd": 13.632,
     "open_interest_base": 100.0,
-    "open_interest_usd": 6.8950103050000005,
+    "open_interest_usd": 6.900760304,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -2028,10 +2028,10 @@
     "market_type": "CROSS",
     "symbol_raw": "USUAL-USD",
     "leverage_max": 5,
-    "price_usd": 0.0648894,
+    "price_usd": 0.064822424,
     "volume_24h_usd": 14718.599,
     "open_interest_base": 1675066.0,
-    "open_interest_usd": 108694.0277004,
+    "open_interest_usd": 108581.838479984,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -2039,7 +2039,7 @@
     "market_type": "ISOLATED",
     "symbol_raw": "THE-USD",
     "leverage_max": 20,
-    "price_usd": 0.336484593,
+    "price_usd": 0.336679923,
     "volume_24h_usd": 0.0,
     "open_interest_base": 0.0,
     "open_interest_usd": 0.0,
@@ -2050,10 +2050,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "PEAQ-USD",
     "leverage_max": 20,
-    "price_usd": 0.0981645372,
+    "price_usd": 0.0976545078,
     "volume_24h_usd": 38.88,
     "open_interest_base": 100.0,
-    "open_interest_usd": 9.81645372,
+    "open_interest_usd": 9.76545078,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -2061,10 +2061,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "BABYDOGE-USD",
     "leverage_max": 20,
-    "price_usd": 1.367683841e-09,
+    "price_usd": 1.353483184e-09,
     "volume_24h_usd": 4449.648,
     "open_interest_base": 2551000000000.0,
-    "open_interest_usd": 3488.961478391,
+    "open_interest_usd": 3452.7356023840002,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -2072,7 +2072,7 @@
     "market_type": "ISOLATED",
     "symbol_raw": "GLMR-USD",
     "leverage_max": 20,
-    "price_usd": 0.0670268107,
+    "price_usd": 0.0673069227,
     "volume_24h_usd": 0.0,
     "open_interest_base": 0.0,
     "open_interest_usd": 0.0,
@@ -2094,7 +2094,7 @@
     "market_type": "ISOLATED",
     "symbol_raw": "ZEREBRO-USD",
     "leverage_max": 20,
-    "price_usd": 0.0214707353,
+    "price_usd": 0.0217086786,
     "volume_24h_usd": 0.0,
     "open_interest_base": 0.0,
     "open_interest_usd": 0.0,
@@ -2105,10 +2105,10 @@
     "market_type": "CROSS",
     "symbol_raw": "MORPHO-USD",
     "leverage_max": 5,
-    "price_usd": 1.999549919,
-    "volume_24h_usd": 79836.736,
+    "price_usd": 2.005602801,
+    "volume_24h_usd": 79834.774,
     "open_interest_base": 18238.0,
-    "open_interest_usd": 36467.791422721995,
+    "open_interest_usd": 36578.183884638005,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -2116,10 +2116,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "COOKIE-USD",
     "leverage_max": 20,
-    "price_usd": 0.13076126168,
+    "price_usd": 0.13025767687,
     "volume_24h_usd": 0.0,
     "open_interest_base": 6800.0,
-    "open_interest_usd": 889.1765794239999,
+    "open_interest_usd": 885.752202716,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -2127,10 +2127,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "VIRTUAL-USD",
     "leverage_max": 20,
-    "price_usd": 1.248474237,
+    "price_usd": 1.246623875,
     "volume_24h_usd": 1504.87,
     "open_interest_base": 15920.0,
-    "open_interest_usd": 19875.70985304,
+    "open_interest_usd": 19846.25209,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -2149,10 +2149,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "AITECH-USD",
     "leverage_max": 20,
-    "price_usd": 0.03339169584,
+    "price_usd": 0.03339385887,
     "volume_24h_usd": 0.0,
     "open_interest_base": 100.0,
-    "open_interest_usd": 3.339169584,
+    "open_interest_usd": 3.339385887,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -2160,7 +2160,7 @@
     "market_type": "ISOLATED",
     "symbol_raw": "SAGA-USD",
     "leverage_max": 20,
-    "price_usd": 0.255719804,
+    "price_usd": 0.254992209,
     "volume_24h_usd": 0.0,
     "open_interest_base": 0.0,
     "open_interest_usd": 0.0,
@@ -2171,10 +2171,10 @@
     "market_type": "CROSS",
     "symbol_raw": "TRUMP-USD",
     "leverage_max": 5,
-    "price_usd": 8.61634653,
+    "price_usd": 8.6228114,
     "volume_24h_usd": 0.0,
     "open_interest_base": 2755.2,
-    "open_interest_usd": 23739.757959455997,
+    "open_interest_usd": 23757.569969279997,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -2182,10 +2182,10 @@
     "market_type": "CROSS",
     "symbol_raw": "PENGU-USD",
     "leverage_max": 5,
-    "price_usd": 0.0345106138,
-    "volume_24h_usd": 106238.518,
-    "open_interest_base": 12459100.0,
-    "open_interest_usd": 429971.18839558,
+    "price_usd": 0.03424534907,
+    "volume_24h_usd": 107133.824,
+    "open_interest_base": 12467400.0,
+    "open_interest_usd": 426950.464995318,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -2193,10 +2193,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "AIXBT-USD",
     "leverage_max": 20,
-    "price_usd": 0.1147659063,
+    "price_usd": 0.1144921381,
     "volume_24h_usd": 0.0,
     "open_interest_base": 142520.0,
-    "open_interest_usd": 16356.436965876,
+    "open_interest_usd": 16317.419522012,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -2204,10 +2204,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "AI16Z-USD",
     "leverage_max": 20,
-    "price_usd": 0.113174242,
+    "price_usd": 0.112439975,
     "volume_24h_usd": 0.0,
     "open_interest_base": 82300.0,
-    "open_interest_usd": 9314.2401166,
+    "open_interest_usd": 9253.8099425,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -2215,7 +2215,7 @@
     "market_type": "ISOLATED",
     "symbol_raw": "KOMA-USD",
     "leverage_max": 20,
-    "price_usd": 0.02208604302,
+    "price_usd": 0.02205102551,
     "volume_24h_usd": 0.0,
     "open_interest_base": 0.0,
     "open_interest_usd": 0.0,
@@ -2237,10 +2237,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "ORCA-USD",
     "leverage_max": 20,
-    "price_usd": 2.236274028,
+    "price_usd": 2.228229916,
     "volume_24h_usd": 0.0,
     "open_interest_base": 3575.0,
-    "open_interest_usd": 7994.6796501,
+    "open_interest_usd": 7965.9219497,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -2248,10 +2248,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "NFT-USD",
     "leverage_max": 20,
-    "price_usd": 4.405202601e-07,
+    "price_usd": 4.402721081e-07,
     "volume_24h_usd": 0.0,
     "open_interest_base": 20000000.0,
-    "open_interest_usd": 8.810405202,
+    "open_interest_usd": 8.805442162,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -2259,7 +2259,7 @@
     "market_type": "ISOLATED",
     "symbol_raw": "MNRY-USD",
     "leverage_max": 20,
-    "price_usd": 0.00199682271,
+    "price_usd": 0.00199467037,
     "volume_24h_usd": 0.0,
     "open_interest_base": 0.0,
     "open_interest_usd": 0.0,
@@ -2270,10 +2270,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "VVV-USD",
     "leverage_max": 20,
-    "price_usd": 2.583121545,
+    "price_usd": 2.582587654,
     "volume_24h_usd": 0.0,
     "open_interest_base": 165.0,
-    "open_interest_usd": 426.215054925,
+    "open_interest_usd": 426.12696291000003,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -2281,7 +2281,7 @@
     "market_type": "ISOLATED",
     "symbol_raw": "NMR-USD",
     "leverage_max": 20,
-    "price_usd": 17.15686274,
+    "price_usd": 17.24,
     "volume_24h_usd": 0.0,
     "open_interest_base": 0.0,
     "open_interest_usd": 0.0,
@@ -2292,10 +2292,10 @@
     "market_type": "CROSS",
     "symbol_raw": "SPX-USD",
     "leverage_max": 5,
-    "price_usd": 1.3013826028,
+    "price_usd": 1.307254748,
     "volume_24h_usd": 24550.816,
     "open_interest_base": 205310.0,
-    "open_interest_usd": 267186.862180868,
+    "open_interest_usd": 268392.47231188003,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -2303,10 +2303,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "VINE-USD",
     "leverage_max": 20,
-    "price_usd": 0.0733608945,
+    "price_usd": 0.0732358069,
     "volume_24h_usd": 1777.605,
     "open_interest_base": 61480.0,
-    "open_interest_usd": 4510.22779386,
+    "open_interest_usd": 4502.537408212001,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -2314,10 +2314,10 @@
     "market_type": "CROSS",
     "symbol_raw": "BERA-USD",
     "leverage_max": 5,
-    "price_usd": 2.325,
+    "price_usd": 2.33483384,
     "volume_24h_usd": 1730.064,
     "open_interest_base": 271.9,
-    "open_interest_usd": 632.1675,
+    "open_interest_usd": 634.8413210959999,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -2336,10 +2336,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "ME-USD",
     "leverage_max": 20,
-    "price_usd": 0.679339669,
+    "price_usd": 0.678072755,
     "volume_24h_usd": 0.0,
     "open_interest_base": 683.0,
-    "open_interest_usd": 463.98899392699997,
+    "open_interest_usd": 463.12369166499997,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -2347,7 +2347,7 @@
     "market_type": "ISOLATED",
     "symbol_raw": "LAYER-USD",
     "leverage_max": 20,
-    "price_usd": 0.5286476715,
+    "price_usd": 0.5279111644,
     "volume_24h_usd": 0.0,
     "open_interest_base": 0.0,
     "open_interest_usd": 0.0,
@@ -2358,10 +2358,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "B3-USD",
     "leverage_max": 20,
-    "price_usd": 0.003080769884,
+    "price_usd": 0.003093473494,
     "volume_24h_usd": 54014.062,
     "open_interest_base": 2452000.0,
-    "open_interest_usd": 7554.047755568,
+    "open_interest_usd": 7585.197007288,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -2380,10 +2380,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "IP-USD",
     "leverage_max": 20,
-    "price_usd": 9.907720252,
+    "price_usd": 9.899959983,
     "volume_24h_usd": 2678.63,
     "open_interest_base": 6282.0,
-    "open_interest_usd": 62240.298623064,
+    "open_interest_usd": 62191.548613206,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -2391,7 +2391,7 @@
     "market_type": "ISOLATED",
     "symbol_raw": "SDM-USD",
     "leverage_max": 20,
-    "price_usd": 0.0026495877,
+    "price_usd": 0.00264655803,
     "volume_24h_usd": 0.0,
     "open_interest_base": 0.0,
     "open_interest_usd": 0.0,
@@ -2402,10 +2402,10 @@
     "market_type": "CROSS",
     "symbol_raw": "KAITO-USD",
     "leverage_max": 5,
-    "price_usd": 1.1121238439,
+    "price_usd": 1.1127574535,
     "volume_24h_usd": 18828.722,
     "open_interest_base": 6350.0,
-    "open_interest_usd": 7061.986408765,
+    "open_interest_usd": 7066.009829725,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -2413,10 +2413,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "PI-USD",
     "leverage_max": 20,
-    "price_usd": 0.3575487743,
+    "price_usd": 0.35863703,
     "volume_24h_usd": 0.0,
     "open_interest_base": 19420.0,
-    "open_interest_usd": 6943.597196905999,
+    "open_interest_usd": 6964.7311226,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -2424,10 +2424,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "KDA-USD",
     "leverage_max": 20,
-    "price_usd": 0.3882553021,
+    "price_usd": 0.387655062,
     "volume_24h_usd": 0.0,
     "open_interest_base": 200.0,
-    "open_interest_usd": 77.65106042,
+    "open_interest_usd": 77.5310124,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -2435,10 +2435,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "SSV-USD",
     "leverage_max": 20,
-    "price_usd": 9.35424996,
+    "price_usd": 9.38144911,
     "volume_24h_usd": 0.0,
     "open_interest_base": 250.0,
-    "open_interest_usd": 2338.5624900000003,
+    "open_interest_usd": 2345.3622775,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -2446,10 +2446,10 @@
     "market_type": "CROSS",
     "symbol_raw": "HYPE-USD",
     "leverage_max": 5,
-    "price_usd": 54.06703351,
-    "volume_24h_usd": 237050.102,
+    "price_usd": 54.0601681,
+    "volume_24h_usd": 236901.066,
     "open_interest_base": 6195.2,
-    "open_interest_usd": 334956.086001152,
+    "open_interest_usd": 334913.55341312,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -2457,10 +2457,10 @@
     "market_type": "CROSS",
     "symbol_raw": "S-USD",
     "leverage_max": 5,
-    "price_usd": 0.3038423502,
+    "price_usd": 0.3034437632,
     "volume_24h_usd": 945.742,
     "open_interest_base": 93700.0,
-    "open_interest_usd": 28470.02821374,
+    "open_interest_usd": 28432.680611839998,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -2468,10 +2468,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "REZ-USD",
     "leverage_max": 20,
-    "price_usd": 0.01177411663,
+    "price_usd": 0.01175,
     "volume_24h_usd": 0.0,
     "open_interest_base": 809800.0,
-    "open_interest_usd": 9534.679646974,
+    "open_interest_usd": 9515.15,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -2490,10 +2490,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "BANANA-USD",
     "leverage_max": 20,
-    "price_usd": 21.6671478,
+    "price_usd": 21.64743665,
     "volume_24h_usd": 2974.216,
     "open_interest_base": 907.9,
-    "open_interest_usd": 19671.60348762,
+    "open_interest_usd": 19653.707734535,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -2501,10 +2501,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "ELX-USD",
     "leverage_max": 20,
-    "price_usd": 0.136388194,
+    "price_usd": 0.136043181,
     "volume_24h_usd": 24.717,
     "open_interest_base": 1340.0,
-    "open_interest_usd": 182.76017996,
+    "open_interest_usd": 182.29786254,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -2512,10 +2512,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "GNO-USD",
     "leverage_max": 20,
-    "price_usd": 145.2969615,
+    "price_usd": 146.1842356,
     "volume_24h_usd": 0.0,
     "open_interest_base": 12.07,
-    "open_interest_usd": 1753.734325305,
+    "open_interest_usd": 1764.443723692,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -2523,7 +2523,7 @@
     "market_type": "ISOLATED",
     "symbol_raw": "MAJOR-USD",
     "leverage_max": 20,
-    "price_usd": 0.1613906953,
+    "price_usd": 0.1619809904,
     "volume_24h_usd": 0.0,
     "open_interest_base": 0.0,
     "open_interest_usd": 0.0,
@@ -2534,10 +2534,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "API3-USD",
     "leverage_max": 20,
-    "price_usd": 0.929348002,
+    "price_usd": 0.9301823411,
     "volume_24h_usd": 0.0,
     "open_interest_base": 36080.0,
-    "open_interest_usd": 33530.87591216,
+    "open_interest_usd": 33560.978866888,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -2545,10 +2545,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "ZETA-USD",
     "leverage_max": 20,
-    "price_usd": 0.1882753101,
+    "price_usd": 0.1882233785,
     "volume_24h_usd": 0.0,
     "open_interest_base": 31800.0,
-    "open_interest_usd": 5987.15486118,
+    "open_interest_usd": 5985.5034363,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -2556,10 +2556,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "NIL-USD",
     "leverage_max": 20,
-    "price_usd": 0.3190503663,
+    "price_usd": 0.3183773509,
     "volume_24h_usd": 41707.173,
     "open_interest_base": 4610.0,
-    "open_interest_usd": 1470.822188643,
+    "open_interest_usd": 1467.719587649,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -2567,7 +2567,7 @@
     "market_type": "ISOLATED",
     "symbol_raw": "MELANIA-USD",
     "leverage_max": 20,
-    "price_usd": 0.1990696549,
+    "price_usd": 0.1980990495,
     "volume_24h_usd": 0.0,
     "open_interest_base": 0.0,
     "open_interest_usd": 0.0,
@@ -2578,7 +2578,7 @@
     "market_type": "ISOLATED",
     "symbol_raw": "NC-USD",
     "leverage_max": 20,
-    "price_usd": 0.01860930465,
+    "price_usd": 0.01863737734,
     "volume_24h_usd": 0.0,
     "open_interest_base": 0.0,
     "open_interest_usd": 0.0,
@@ -2589,7 +2589,7 @@
     "market_type": "ISOLATED",
     "symbol_raw": "BADGER-USD",
     "leverage_max": 20,
-    "price_usd": 1.07,
+    "price_usd": 1.08,
     "volume_24h_usd": 0.0,
     "open_interest_base": 0.0,
     "open_interest_usd": 0.0,
@@ -2600,10 +2600,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "GAS-USD",
     "leverage_max": 20,
-    "price_usd": 3.319129462,
+    "price_usd": 3.319327731,
     "volume_24h_usd": 0.0,
     "open_interest_base": 4340.0,
-    "open_interest_usd": 14405.02186508,
+    "open_interest_usd": 14405.88235254,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -2611,7 +2611,7 @@
     "market_type": "ISOLATED",
     "symbol_raw": "FORTH-USD",
     "leverage_max": 20,
-    "price_usd": 2.664233013,
+    "price_usd": 2.673974566,
     "volume_24h_usd": 0.0,
     "open_interest_base": 0.0,
     "open_interest_usd": 0.0,
@@ -2622,7 +2622,7 @@
     "market_type": "ISOLATED",
     "symbol_raw": "TROY-USD",
     "leverage_max": 20,
-    "price_usd": 9.35974389e-05,
+    "price_usd": 9.84593837e-05,
     "volume_24h_usd": 0.0,
     "open_interest_base": 0.0,
     "open_interest_usd": 0.0,
@@ -2633,7 +2633,7 @@
     "market_type": "ISOLATED",
     "symbol_raw": "STEEM-USD",
     "leverage_max": 20,
-    "price_usd": 0.1324620585,
+    "price_usd": 0.13253975,
     "volume_24h_usd": 0.0,
     "open_interest_base": 0.0,
     "open_interest_usd": 0.0,
@@ -2644,10 +2644,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "BABY-USD",
     "leverage_max": 20,
-    "price_usd": 0.05489744872,
-    "volume_24h_usd": 261151.244,
+    "price_usd": 0.05555222088,
+    "volume_24h_usd": 389418.055,
     "open_interest_base": 700000.0,
-    "open_interest_usd": 38428.214104,
+    "open_interest_usd": 38886.554616,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -2655,10 +2655,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "WCT-USD",
     "leverage_max": 20,
-    "price_usd": 0.3148475061,
+    "price_usd": 0.3141256502,
     "volume_24h_usd": 0.0,
     "open_interest_base": 45070.0,
-    "open_interest_usd": 14190.177099927001,
+    "open_interest_usd": 14157.643054514,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -2666,10 +2666,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "AERGO-USD",
     "leverage_max": 20,
-    "price_usd": 0.1075,
+    "price_usd": 0.1074,
     "volume_24h_usd": 9013.401,
     "open_interest_base": 310300.0,
-    "open_interest_usd": 33357.25,
+    "open_interest_usd": 33326.22,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -2677,7 +2677,7 @@
     "market_type": "ISOLATED",
     "symbol_raw": "VOXEL-USD",
     "leverage_max": 20,
-    "price_usd": 0.06301575787,
+    "price_usd": 0.06306260504,
     "volume_24h_usd": 0.0,
     "open_interest_base": 0.0,
     "open_interest_usd": 0.0,
@@ -2688,10 +2688,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "MAGIC-USD",
     "leverage_max": 20,
-    "price_usd": 0.2070828331,
+    "price_usd": 0.2062,
     "volume_24h_usd": 0.0,
     "open_interest_base": 66750.0,
-    "open_interest_usd": 13822.779109425,
+    "open_interest_usd": 13763.85,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -2699,7 +2699,7 @@
     "market_type": "ISOLATED",
     "symbol_raw": "ALPACA-USD",
     "leverage_max": 20,
-    "price_usd": 0.01710855427,
+    "price_usd": 0.01746534403,
     "volume_24h_usd": 0.0,
     "open_interest_base": 0.0,
     "open_interest_usd": 0.0,
@@ -2721,10 +2721,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "SIGN-USD",
     "leverage_max": 20,
-    "price_usd": 0.07609304652,
+    "price_usd": 0.07622048819,
     "volume_24h_usd": 7.482,
     "open_interest_base": 100.0,
-    "open_interest_usd": 7.609304652,
+    "open_interest_usd": 7.622048819000001,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -2732,10 +2732,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "IOTX-USD",
     "leverage_max": 20,
-    "price_usd": 0.02687343671,
+    "price_usd": 0.0268507343,
     "volume_24h_usd": 0.0,
     "open_interest_base": 14700.0,
-    "open_interest_usd": 395.039519637,
+    "open_interest_usd": 394.70579421,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -2754,10 +2754,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "KERNEL-USD",
     "leverage_max": 20,
-    "price_usd": 0.1932483241,
+    "price_usd": 0.1916869914,
     "volume_24h_usd": 19872.996,
     "open_interest_base": 870.0,
-    "open_interest_usd": 168.12604196700002,
+    "open_interest_usd": 166.76768251800002,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -2765,10 +2765,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "SOPH-USD",
     "leverage_max": 20,
-    "price_usd": 0.03110244097,
+    "price_usd": 0.03105241137,
     "volume_24h_usd": 0.0,
     "open_interest_base": 15400.0,
-    "open_interest_usd": 478.977590938,
+    "open_interest_usd": 478.20713509800004,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -2776,7 +2776,7 @@
     "market_type": "ISOLATED",
     "symbol_raw": "WSTETH-USD",
     "leverage_max": 20,
-    "price_usd": 5441.347095,
+    "price_usd": 5448.802156,
     "volume_24h_usd": 0.0,
     "open_interest_base": 0.0,
     "open_interest_usd": 0.0,
@@ -2787,10 +2787,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "LPT-USD",
     "leverage_max": 20,
-    "price_usd": 6.8104052,
+    "price_usd": 6.80272108,
     "volume_24h_usd": 0.0,
     "open_interest_base": 1283.0,
-    "open_interest_usd": 8737.7498716,
+    "open_interest_usd": 8727.89114564,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -2809,10 +2809,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "LA-USD",
     "leverage_max": 20,
-    "price_usd": 0.3648269123,
+    "price_usd": 0.3651460584,
     "volume_24h_usd": 103240.934,
     "open_interest_base": 46230.0,
-    "open_interest_usd": 16865.948155628997,
+    "open_interest_usd": 16880.702279832,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -2820,10 +2820,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "MASK-USD",
     "leverage_max": 20,
-    "price_usd": 1.268134067,
+    "price_usd": 1.268122175,
     "volume_24h_usd": 0.0,
     "open_interest_base": 62.0,
-    "open_interest_usd": 78.62431215400001,
+    "open_interest_usd": 78.62357485,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -2842,10 +2842,10 @@
     "market_type": "CROSS",
     "symbol_raw": "SYRUP-USD",
     "leverage_max": 5,
-    "price_usd": 0.4384526965,
+    "price_usd": 0.4394197098,
     "volume_24h_usd": 952.16,
     "open_interest_base": 28240.0,
-    "open_interest_usd": 12381.90414916,
+    "open_interest_usd": 12409.212604752,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -2853,10 +2853,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "FLR-USD",
     "leverage_max": 20,
-    "price_usd": 0.023286,
+    "price_usd": 0.0231115,
     "volume_24h_usd": 0.0,
     "open_interest_base": 961500.0,
-    "open_interest_usd": 22389.489,
+    "open_interest_usd": 22221.70725,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -2864,10 +2864,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "NEWT-USD",
     "leverage_max": 20,
-    "price_usd": 0.256038019,
+    "price_usd": 0.2559,
     "volume_24h_usd": 0.0,
     "open_interest_base": 14940.0,
-    "open_interest_usd": 3825.20800386,
+    "open_interest_usd": 3823.146,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -2875,10 +2875,10 @@
     "market_type": "CROSS",
     "symbol_raw": "PUMP-USD",
     "leverage_max": 5,
-    "price_usd": 0.008203781512,
-    "volume_24h_usd": 950238.501,
-    "open_interest_base": 46318000.0,
-    "open_interest_usd": 379982.752072816,
+    "price_usd": 0.008058802754,
+    "volume_24h_usd": 912352.077,
+    "open_interest_base": 45034000.0,
+    "open_interest_usd": 362920.123223636,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -2886,10 +2886,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "ES-USD",
     "leverage_max": 5,
-    "price_usd": 0.1479739869,
+    "price_usd": 0.1484593837,
     "volume_24h_usd": 0.0,
     "open_interest_base": 10.0,
-    "open_interest_usd": 1.4797398689999999,
+    "open_interest_usd": 1.484593837,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -2897,10 +2897,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "ACX-USD",
     "leverage_max": 5,
-    "price_usd": 0.1384825896,
+    "price_usd": 0.13905421,
     "volume_24h_usd": 0.0,
     "open_interest_base": 81880.0,
-    "open_interest_usd": 11338.954436448,
+    "open_interest_usd": 11385.7587148,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -2908,10 +2908,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "ERA-USD",
     "leverage_max": 5,
-    "price_usd": 0.720438175,
+    "price_usd": 0.7182154,
     "volume_24h_usd": 0.0,
     "open_interest_base": 80.0,
-    "open_interest_usd": 57.635054,
+    "open_interest_usd": 57.457232,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -2919,10 +2919,10 @@
     "market_type": "CROSS",
     "symbol_raw": "ZORA-USD",
     "leverage_max": 5,
-    "price_usd": 0.07756878439,
-    "volume_24h_usd": 129711.062,
+    "price_usd": 0.07729221454,
+    "volume_24h_usd": 129613.536,
     "open_interest_base": 662000.0,
-    "open_interest_usd": 51350.535266180006,
+    "open_interest_usd": 51167.44602548,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -2930,10 +2930,10 @@
     "market_type": "CROSS",
     "symbol_raw": "CRO-USD",
     "leverage_max": 5,
-    "price_usd": 0.232121214,
-    "volume_24h_usd": 16569.921,
-    "open_interest_base": 208300.0,
-    "open_interest_usd": 48350.8488762,
+    "price_usd": 0.23150903059,
+    "volume_24h_usd": 24126.763,
+    "open_interest_base": 192400.0,
+    "open_interest_usd": 44542.337485516,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -2941,10 +2941,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "HUMA-USD",
     "leverage_max": 5,
-    "price_usd": 0.02603041216,
+    "price_usd": 0.02611644657,
     "volume_24h_usd": 122.059,
     "open_interest_base": 4000.0,
-    "open_interest_usd": 104.12164863999999,
+    "open_interest_usd": 104.46578628,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -2952,10 +2952,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "OMNI-USD",
     "leverage_max": 5,
-    "price_usd": 3.607803901,
+    "price_usd": 3.622876169,
     "volume_24h_usd": 134728.853,
     "open_interest_base": 8135.0,
-    "open_interest_usd": 29349.484734635,
+    "open_interest_usd": 29472.097634815,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -2963,10 +2963,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "PROVE-USD",
     "leverage_max": 5,
-    "price_usd": 0.9103736904,
+    "price_usd": 0.9117503424,
     "volume_24h_usd": 0.0,
     "open_interest_base": 35850.0,
-    "open_interest_usd": 32636.89680084,
+    "open_interest_usd": 32686.24977504,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -2974,10 +2974,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "USELESS-USD",
     "leverage_max": 5,
-    "price_usd": 0.2323783757,
-    "volume_24h_usd": 41568.144,
+    "price_usd": 0.2287007202,
+    "volume_24h_usd": 39278.144,
     "open_interest_base": 713990.0,
-    "open_interest_usd": 165915.836466043,
+    "open_interest_usd": 163290.027215598,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -2985,10 +2985,10 @@
     "market_type": "CROSS",
     "symbol_raw": "WLFI-USD",
     "leverage_max": 5,
-    "price_usd": 0.2215886354,
+    "price_usd": 0.2212,
     "volume_24h_usd": 9079.838,
     "open_interest_base": 582480.0,
-    "open_interest_usd": 129070.948347792,
+    "open_interest_usd": 128844.576,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -2996,10 +2996,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "SKY-USD",
     "leverage_max": 5,
-    "price_usd": 0.073872079,
+    "price_usd": 0.07387,
     "volume_24h_usd": 89555.024,
     "open_interest_base": 282000.0,
-    "open_interest_usd": 20831.926278,
+    "open_interest_usd": 20831.34,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -3007,10 +3007,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "TSLAX-USD",
     "leverage_max": 5,
-    "price_usd": 422.6240496,
+    "price_usd": 422.2188875,
     "volume_24h_usd": 0.0,
     "open_interest_base": 0.98,
-    "open_interest_usd": 414.171568608,
+    "open_interest_usd": 413.77450975,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -3018,10 +3018,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "LINEA-USD",
     "leverage_max": 5,
-    "price_usd": 0.02569027611,
+    "price_usd": 0.02576006995,
     "volume_24h_usd": 121606.892,
     "open_interest_base": 715400.0,
-    "open_interest_usd": 18378.823529094,
+    "open_interest_usd": 18428.75404223,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -3029,10 +3029,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "PROMPT-USD",
     "leverage_max": 5,
-    "price_usd": 0.16990747123,
+    "price_usd": 0.17045613586,
     "volume_24h_usd": 9411.883,
     "open_interest_base": 1400.0,
-    "open_interest_usd": 237.870459722,
+    "open_interest_usd": 238.638590204,
     "daily_snapshot": "2025-09-16"
   },
   {
@@ -3040,10 +3040,10 @@
     "market_type": "ISOLATED",
     "symbol_raw": "HOLO-USD",
     "leverage_max": 5,
-    "price_usd": 0.3919549785,
+    "price_usd": 0.3874055444,
     "volume_24h_usd": 20398.927,
     "open_interest_base": 10900.0,
-    "open_interest_usd": 4272.30926565,
+    "open_interest_usd": 4222.72043396,
     "daily_snapshot": "2025-09-16"
   }
 ]
