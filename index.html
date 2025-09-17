@@ -130,11 +130,11 @@
    API CONFIG — Perps API integration
    ============================================================ */
 const API_BASE = "https://perps-node-d942af6814fa.herokuapp.com";
-const API_KEY = window.API_KEY || process?.env?.API_KEY || '';
+const API_KEY = '{{API_KEY}}';
 
 // Check if we have API key
-if (!API_KEY) {
-  console.warn('API_KEY not found. Please set window.API_KEY or process.env.API_KEY');
+if (!API_KEY || API_KEY === '{{API_KEY}}') {
+  console.warn('API_KEY not found. Please set the API_KEY GitHub secret.');
 }
 
 /* ===========================

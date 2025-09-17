@@ -24,6 +24,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      
+      - name: Inject API Key
+        run: |
+          # Replace API_KEY placeholder with the actual secret
+          sed -i "s/{{API_KEY}}/${{ secrets.API_KEY }}/g" index.html
+          
       - name: Upload static site
         uses: actions/upload-pages-artifact@v3
         with:
