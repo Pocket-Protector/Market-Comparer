@@ -7,6 +7,8 @@
 <!-- libs -->
 <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.6/dist/chart.umd.min.js"></script>
+<!-- config -->
+<script src="config.js"></script>
 <style>
   :root { --bg:#0b1020; --panel:#0e1729; --border:#1f2937; --text:#e5e7eb; --muted:#94a3b8; }
   body { margin:0; background:var(--bg); color:var(--text); font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial; }
@@ -116,7 +118,7 @@
           </tr>
         </thead>
         <tbody id="body">
-          <tr><td colspan="10" class="empty">Loading latest CSV…</td></tr>
+          <tr><td colspan="10" class="empty">Loading data from API…</td></tr>
         </tbody>
       </table>
     </div>
@@ -125,22 +127,15 @@
 
 <script>
 /* ============================================================
-   CONFIG — you set this like below and we’ll build URLs.
-   You used:
-   const RAW_BASE = "https://raw.githubusercontent.com/alanjacob008/dexhawk/ | https://raw.githubusercontent.com/Pocket-Protector/Market-Comparer/"";
-   We’ll append "main/..." automatically.
+   API CONFIG — Perps API integration
    ============================================================ */
-const RAW_BASE = "https://raw.githubusercontent.com/alanjacob008/dexhawk/"; // <-- your value
-const USE_RAW = RAW_BASE.includes("raw.githubusercontent.com");
-const BRANCH = "main"; // change if your data branch differs
-const LATEST_CSV_URL = USE_RAW
-  ? `${RAW_BASE}${BRANCH}/data/latest/all_latest.csv`
-  : 'data/latest/all_latest.csv';
-const HISTORY_URLS = (year) => USE_RAW
-  ? [ `${RAW_BASE}${BRANCH}/data/history/metrics_${year}.csv`,
-      `${RAW_BASE}${BRANCH}/data/history/metrics_${year-1}.csv` ]
-  : [ `data/history/metrics_${year}.csv`,
-      `data/history/metrics_${year-1}.csv` ];
+const API_BASE = "https://perps-node-d942af6814fa.herokuapp.com";
+const API_KEY = window.API_KEY || process?.env?.API_KEY || '';
+
+// Check if we have API key
+if (!API_KEY) {
+  console.warn('API_KEY not found. Please set window.API_KEY or process.env.API_KEY');
+}
 
 /* ===========================
    STATE & CONSTANTS
@@ -161,12 +156,203 @@ const COLORS = { drift:'#8d23ff', dydx:'#2382ff', hyperliquid:'#25ff71' };
 
 let rowsRaw = [];
 let rowsFiltered = [];
+let historicalData = [];     // All historical data for charts
+let symbolAliases = new Map(); // symbol_raw -> symbol_canonical
 let exchangeOn = { drift:true, dydx:true, hyperliquid:true };
 let sortKey = null;
 let sortDir = 'desc';
 let drawers = new Map();     // symbol_raw -> {host, charts}
 let historyCache = new Map();// symbol_raw -> history payload
 let lastLoadTs = 0;
+let isLoading = false;
+
+/* ===========================
+   API CLIENT
+   =========================== */
+class PerpsAPIClient {
+  constructor(baseUrl, apiKey) {
+    this.baseUrl = baseUrl;
+    this.apiKey = apiKey;
+    this.cache = new Map();
+    this.cacheTTL = 600000; // 10 minutes
+  }
+
+  async _get(endpoint, params = {}) {
+    const url = new URL(`${this.baseUrl}${endpoint}`);
+    Object.keys(params).forEach(key => url.searchParams.append(key, params[key]));
+    
+    const cacheKey = `${endpoint}:${JSON.stringify(params)}`;
+    const cached = this.cache.get(cacheKey);
+    if (cached && Date.now() - cached.timestamp < this.cacheTTL) {
+      return cached.data;
+    }
+
+    const response = await fetch(url, {
+      headers: {
+        'x-api-key': this.apiKey
+      }
+    });
+
+    if (!response.ok) {
+      if (response.status === 401) throw new Error('Invalid API key');
+      if (response.status === 429) throw new Error('Rate limit exceeded');
+      throw new Error(`API error: ${response.status}`);
+    }
+
+    const data = await response.json();
+    this.cache.set(cacheKey, { data, timestamp: Date.now() });
+    return data;
+  }
+
+  async getLatestData(limit = 1000) {
+    return await this._get('/v1/marketcompare/latest_data', { limit });
+  }
+
+  async getAllDailyData(limit = 10000) {
+    // Try single request first
+    const response = await this._get('/v1/marketcompare/daily_data', { all: 1, limit });
+    
+    // If we got less data than requested, we have everything
+    if (response.data && response.data.length < limit) {
+      return response;
+    }
+    
+    // If we got exactly the limit, we might need pagination
+    // Check if there's more data by requesting one more record
+    const nextResponse = await this._get('/v1/marketcompare/daily_data', { 
+      all: 1, 
+      limit: 1, 
+      offset: limit 
+    });
+    
+    // If there's more data, use pagination
+    if (nextResponse.data && nextResponse.data.length > 0) {
+      console.log('Large dataset detected, using pagination...');
+      return await this._getAllDailyDataPaginated(limit);
+    }
+    
+    return response;
+  }
+
+  async _getAllDailyDataPaginated(limit) {
+    const allData = [];
+    let offset = 0;
+    const batchSize = 1000; // API max per request
+    
+    while (allData.length < limit) {
+      const remaining = limit - allData.length;
+      const currentBatchSize = Math.min(batchSize, remaining);
+      
+      const response = await this._get('/v1/marketcompare/daily_data', { 
+        all: 1, 
+        limit: currentBatchSize, 
+        offset: offset 
+      });
+      
+      const batchData = response.data || [];
+      if (batchData.length === 0) break; // No more data
+      
+      allData.push(...batchData);
+      offset += currentBatchSize;
+      
+      // Update progress for large datasets
+      if (window.updateProgress && allData.length % 5000 === 0) {
+        window.updateProgress(`Loading historical data... ${allData.length} records`);
+      }
+      
+      // If we got less than requested, we're done
+      if (batchData.length < currentBatchSize) break;
+    }
+    
+    return {
+      cached: false,
+      data: allData,
+      pagination: { limit: allData.length, offset: 0 },
+      meta: { total_fetched: allData.length, paginated: true }
+    };
+  }
+
+  async getSymbolAliases(limit = 1000) {
+    return await this._get('/v1/marketcompare/symbol_aliases', { limit });
+  }
+
+  async getSymbolRegistry(limit = 1000) {
+    return await this._get('/v1/marketcompare/symbol_registry', { limit });
+  }
+}
+
+const apiClient = new PerpsAPIClient(API_BASE, API_KEY);
+
+/* ===========================
+   SYMBOL RESOLUTION
+   =========================== */
+function resolveSymbol(symbol) {
+  return symbolAliases.get(symbol) || symbol;
+}
+
+function normalizeSymbol(symbol) {
+  if (!symbol) return symbol;
+  let s = symbol.trim().toUpperCase();
+  if (!s.includes('-') && s) {
+    s = `${s}-USD`;
+  }
+  return resolveSymbol(s);
+}
+
+/* ===========================
+   PROGRESS INDICATORS
+   =========================== */
+function showProgressBar(message = 'Loading...') {
+  const progressEl = document.getElementById('progressBar') || createProgressBar();
+  progressEl.textContent = message;
+  progressEl.style.display = 'block';
+}
+
+// Global progress update function
+window.updateProgress = function(message) {
+  const progressEl = document.getElementById('progressBar');
+  if (progressEl) {
+    progressEl.textContent = message;
+  }
+};
+
+function hideProgressBar() {
+  const progressEl = document.getElementById('progressBar');
+  if (progressEl) {
+    progressEl.style.display = 'none';
+  }
+}
+
+function createProgressBar() {
+  const progressEl = document.createElement('div');
+  progressEl.id = 'progressBar';
+  progressEl.style.cssText = `
+    position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+    background: #1f2937; color: #e5e7eb; padding: 8px 16px;
+    text-align: center; font-size: 14px; border-bottom: 1px solid #374151;
+  `;
+  document.body.appendChild(progressEl);
+  return progressEl;
+}
+
+function showError(message) {
+  const errorEl = document.getElementById('errorBar') || createErrorBar();
+  errorEl.textContent = `Error: ${message}`;
+  errorEl.style.display = 'block';
+  setTimeout(() => errorEl.style.display = 'none', 5000);
+}
+
+function createErrorBar() {
+  const errorEl = document.createElement('div');
+  errorEl.id = 'errorBar';
+  errorEl.style.cssText = `
+    position: fixed; top: 0; left: 0; right: 0; z-index: 1001;
+    background: #dc2626; color: white; padding: 8px 16px;
+    text-align: center; font-size: 14px; font-weight: 500;
+  `;
+  document.body.appendChild(errorEl);
+  return errorEl;
+}
 
 /* ===========================
    FORMATTERS
@@ -489,13 +675,14 @@ async function loadCSV(url) {
 }
 async function loadHistory(symbol) {
   if (historyCache.has(symbol)) return historyCache.get(symbol);
-  const y = new Date().getUTCFullYear();
-  const urls = HISTORY_URLS(y);
-  let rows = [];
-  for (const u of urls) {
-    try { rows = rows.concat(await loadCSV(u)); } catch (_) {}
-  }
-  rows = rows.map(ensureColumns).filter(r => r.symbol_raw === symbol);
+  
+  // Use preloaded historical data with symbol alias resolution
+  const canonicalSymbol = resolveSymbol(symbol);
+  const rows = historicalData.filter(r => {
+    const rowSymbol = resolveSymbol(r.symbol_raw);
+    return rowSymbol === canonicalSymbol;
+  });
+  
   const byDateEx = new Map(), dates = new Set();
   for (const r of rows) {
     const d = r.daily_snapshot || ''; if (!d) continue;
@@ -556,7 +743,10 @@ function applyFilters() {
   const t = String(typeFilterEl.value || '').toUpperCase();
   rowsFiltered = rowsRaw.filter(r => {
     if (!exchangeOn[r.exchange]) return false;
+    
+    // Symbols are already resolved during data loading
     if (q && !String(r.symbol_raw || '').toUpperCase().includes(q)) return false;
+    
     if (t && String(r.market_type || '').toUpperCase() !== t) return false;
     return true;
   });
@@ -574,30 +764,72 @@ function setSort(newKey) {
 }
 
 /* ===========================
-   LOAD LATEST CSV (cache-busted) + Last-updated fallback
+   LOAD ALL DATA FROM API
    =========================== */
-async function fetchLatestCSV() {
-  const url = `${LATEST_CSV_URL}?t=${Date.now()}`;
-  const res = await fetch(url, { cache:'no-store' });
-
-  // Prefer Last-Modified header, else use fetch time
-  let caption;
-  const lm = res.headers.get('Last-Modified');
-  if (lm) {
-    const dt = new Date(lm);
-    caption = dt.toISOString().replace('.000Z','Z');
-  } else {
-    caption = new Date().toISOString().replace('.000Z','Z'); // fallback
+async function loadAllData() {
+  if (isLoading) return;
+  isLoading = true;
+  
+  showProgressBar('Loading market data...');
+  
+  try {
+    // Load all data in parallel
+    const [latestResponse, historicalResponse, aliasesResponse] = await Promise.all([
+      apiClient.getLatestData(),
+      apiClient.getAllDailyData(),
+      apiClient.getSymbolAliases()
+    ]);
+    
+    // Process symbol aliases FIRST
+    symbolAliases.clear();
+    (aliasesResponse.data || []).forEach(alias => {
+      if (alias.symbol_raw && alias.symbol_canonical) {
+        symbolAliases.set(alias.symbol_raw, alias.symbol_canonical);
+      }
+    });
+    
+    // Process latest data with symbol alias resolution
+    rowsRaw = (latestResponse.data || []).map(row => {
+      const processed = ensureColumns(row);
+      // Apply symbol alias resolution for grouping
+      if (processed.symbol_raw) {
+        processed.symbol_raw = resolveSymbol(processed.symbol_raw);
+      }
+      return processed;
+    });
+    
+    // Process historical data with symbol alias resolution
+    historicalData = (historicalResponse.data || []).map(row => {
+      const processed = ensureColumns(row);
+      // Apply symbol alias resolution for grouping
+      if (processed.symbol_raw) {
+        processed.symbol_raw = resolveSymbol(processed.symbol_raw);
+      }
+      return processed;
+    });
+    
+    // Update UI
+    const now = new Date();
+    const dateOnly = now.toISOString().split('T')[0]; // Get just the date part
+    titleEl.textContent = `Market Comparer — Last updated ${dateOnly}`;
+    lastUpdatedEl.textContent = `Last updated (UTC): ${dateOnly}`;
+    
+    lastLoadTs = Date.now();
+    applyFilters();
+    
+    hideProgressBar();
+    
+  } catch (error) {
+    console.error('Failed to load data:', error);
+    showError(`Failed to load data: ${error.message}`);
+    hideProgressBar();
+    
+    // Show error in table
+    tbody.innerHTML = `<tr><td colspan="10" class="empty">Failed to load data from API: ${error.message}</td></tr>`;
+    lastUpdatedEl.textContent = 'Failed to load data';
+  } finally {
+    isLoading = false;
   }
-  titleEl.textContent = `Market Comparer — Last updated ${caption.replace('T',' ')}`;
-  lastUpdatedEl.textContent = `Last updated (UTC): ${caption}`;
-
-  if (!res.ok) throw new Error(`HTTP ${res.status}`);
-  const text = await res.text();
-  const parsed = Papa.parse(text, { header:true, skipEmptyLines:true });
-  rowsRaw = (parsed.data || []).map(ensureColumns);
-  lastLoadTs = Date.now();
-  applyFilters();
 }
 
 /* ===========================
@@ -614,7 +846,7 @@ document.getElementById('exchangeChips').addEventListener('click', (e) => {
 
 document.getElementById('refreshBtn').addEventListener('click', async () => {
   refreshBtn.textContent = '↻ Refreshing…';
-  try { await fetchLatestCSV(); } finally { refreshBtn.textContent = '↻ Refresh data'; }
+  try { await loadAllData(); } finally { refreshBtn.textContent = '↻ Refresh data'; }
 });
 
 symFilterEl.addEventListener('input', applyFilters);
@@ -628,15 +860,15 @@ document.addEventListener('visibilitychange', async () => {
   if (document.visibilityState === 'visible') {
     const STALE_MS = 5 * 60 * 1000;
     if (Date.now() - lastLoadTs > STALE_MS) {
-      try { await fetchLatestCSV(); } catch (_) {}
+      try { await loadAllData(); } catch (_) {}
     }
   }
 });
 
 /* BOOT */
-fetchLatestCSV().catch(err => {
-  tbody.innerHTML = `<tr><td colspan="10" class="empty">Failed to load latest CSV (${String(err)}). Check RAW_BASE or file path.</td></tr>`;
-  lastUpdatedEl.textContent = 'Failed to read last-updated time.';
+loadAllData().catch(err => {
+  tbody.innerHTML = `<tr><td colspan="10" class="empty">Failed to load data from API (${String(err)}). Check API configuration.</td></tr>`;
+  lastUpdatedEl.textContent = 'Failed to load data';
 });
 </script>
 </body>

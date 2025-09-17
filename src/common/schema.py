@@ -16,11 +16,17 @@ CSV_FIELDS = [
     "daily_snapshot",
 ]
 
-def normalize_symbol(sym: str) -> str:
+def normalize_symbol(sym: str, symbol_resolver=None) -> str:
+    """Normalize symbol with optional alias resolution."""
     s = (sym or "").strip().upper()
     # force -USD suffix if missing
     if "-" not in s and s:
-        return f"{s}-USD"
+        s = f"{s}-USD"
+    
+    # Apply alias resolution if resolver is provided
+    if symbol_resolver:
+        return symbol_resolver.resolve_symbol(s)
+    
     return s
 
 def norm_market_type(s: str) -> str:
