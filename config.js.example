@@ -1,0 +1,10 @@
+// API Configuration
+// Set your API key here for local development
+// For production, this will be overridden by GitHub Secrets
+
+window.API_KEY = 'your-api-key-here';
+
+// Instructions:
+// 1. Replace 'your-api-key-here' with your actual API key
+// 2. For production, set API_KEY as a GitHub Secret
+// 3. The HTML will automatically read from window.API_KEY

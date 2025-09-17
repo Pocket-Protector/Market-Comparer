@@ -7,15 +7,16 @@
 ## What this repo does
 
 * **API Integration** fetches real-time data:
-  * `src/common/api_client.py` - Perps API client with pagination & caching
+  * `src/common/api_client.py` - Perps API client with smart pagination & caching
   * `src/common/symbol_resolver.py` - Symbol alias resolution system
   * `src/api_fetcher.py` - API-based data fetcher (optional backend)
+  * `src/orchestrate_api.py` - API orchestration script (optional)
 
 * **Real-time Data Sources**:
-  * Latest market data (1000+ records with pagination)
-  * Complete historical data (50,000+ records with pagination)
-  * Symbol aliases (5000+ mappings with pagination)
-  * Symbol registry (5000+ symbols with pagination)
+  * Latest market data (1000+ records)
+  * Complete historical data (10,000+ records with smart pagination)
+  * Symbol aliases (1000+ mappings)
+  * Symbol registry (1000+ symbols)
 
 * **UI (`index.html`)**:
   * **Real-time data** from Perps API (no file dependencies)
@@ -49,7 +50,11 @@
 ## Configuration
 
 ### Local Development
-1. Update `config.js` with your API key:
+1. Copy `config.js.example` to `config.js`:
+   ```bash
+   cp config.js.example config.js
+   ```
+2. Update `config.js` with your API key:
    ```javascript
    window.API_KEY = 'your-api-key-here';
    ```

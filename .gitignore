@@ -35,5 +35,8 @@ yarn-error.log*
 *.tmp
 *.swp
 
-data/
+# API data (optional local caching)
+data/api/
+
+# Local config (keep config.js.example)
 config.js
