@@ -22,6 +22,17 @@
   .chip.on { box-shadow: inset 0 0 0 999px #ffffff10; }
   .chip.drift { background:#8d23ff22; } .chip.dydx { background:#2382ff22; } .chip.hyper { background:#25ff7122; }
   .chip.refresh { background:#0b1325; }
+  
+  /* Update progress bar */
+  .update-progress { display: flex; align-items: center; gap: 12px; margin: 8px 0 16px; }
+  .progress-bar { flex: 1; height: 6px; background: #1f2937; border-radius: 3px; overflow: hidden; }
+  .progress-fill { height: 100%; background: linear-gradient(90deg, #25ff71, #2382ff); border-radius: 3px; transition: width 1s ease; }
+  .progress-text { font-size: 12px; color: var(--muted); min-width: 80px; }
+  
+  /* GitHub link */
+  .github-link { display: inline-flex; align-items: center; margin-left: 12px; color: var(--muted); text-decoration: none; transition: color 0.2s ease; }
+  .github-link:hover { color: var(--text); }
+  .github-link svg { width: 20px; height: 20px; }
 
   .toolbar { display:flex; flex-wrap:wrap; gap:12px; align-items:center; background:var(--panel); border:1px solid var(--border); padding:12px; border-radius:12px; }
   .toolbar label { font-size:12px; color: var(--muted); }
@@ -62,15 +73,27 @@
 </head>
 <body>
   <div class="container">
-    <h1 id="title">Market Comparer</h1>
+    <h1 id="title">
+      Market Comparer
+      <a href="https://github.com/Pocket-Protector/Market-Comparer" target="_blank" class="github-link" title="View on GitHub">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+        </svg>
+      </a>
+    </h1>
     <div class="last-updated" id="lastUpdated">Loading last updated…</div>
+    <div class="update-progress" id="updateProgress" style="display: none;">
+      <div class="progress-bar">
+        <div class="progress-fill" id="progressFill"></div>
+      </div>
+      <span class="progress-text" id="progressText">Updates in 59m</span>
+    </div>
 
-    <!-- exchange chips + refresh -->
+    <!-- exchange chips -->
     <div class="chips" id="exchangeChips">
       <span class="chip drift on" data-ex="drift">drift</span>
       <span class="chip dydx on" data-ex="dydx">dydx</span>
       <span class="chip hyper on" data-ex="hyperliquid">hyperliquid</span>
-      <span class="chip refresh" id="refreshBtn">↻ Refresh data</span>
     </div>
 
     <!-- toolbar -->
@@ -811,8 +834,12 @@ async function loadAllData() {
     // Update UI
     const now = new Date();
     const dateOnly = now.toISOString().split('T')[0]; // Get just the date part
-    titleEl.textContent = `Market Comparer — Last updated ${dateOnly}`;
-    lastUpdatedEl.textContent = `Last updated (UTC): ${dateOnly}`;
+    const hour = now.getUTCHours();
+    const ampm = hour >= 12 ? 'PM' : 'AM';
+    const displayHour = hour === 0 ? 12 : hour > 12 ? hour - 12 : hour;
+    
+    titleEl.textContent = 'Market Comparer';
+    lastUpdatedEl.textContent = `Last updated (UTC): ${dateOnly} - ${displayHour}${ampm}`;
     
     lastLoadTs = Date.now();
     applyFilters();
@@ -837,17 +864,13 @@ async function loadAllData() {
    =========================== */
 document.getElementById('exchangeChips').addEventListener('click', (e) => {
   const el = e.target.closest('.chip'); if (!el) return;
-  if (el.id === 'refreshBtn') return; // handled separately
   const ex = el.dataset.ex;
   el.classList.toggle('on');
   exchangeOn[ex] = el.classList.contains('on');
   applyFilters(); // will dispose charts + rebuild table safely
 });
 
-document.getElementById('refreshBtn').addEventListener('click', async () => {
-  refreshBtn.textContent = '↻ Refreshing…';
-  try { await loadAllData(); } finally { refreshBtn.textContent = '↻ Refresh data'; }
-});
+// Removed refresh button event listener
 
 symFilterEl.addEventListener('input', applyFilters);
 typeFilterEl.addEventListener('change', applyFilters);
@@ -855,7 +878,63 @@ presenceEl.addEventListener('change', applyFilters);
 baselineSel.addEventListener('change', () => renderTable(rowsFiltered));
 headerCells.forEach(th => th.addEventListener('click', () => setSort(th.dataset.key)));
 
-/* Optional: auto-refresh when tab regains focus (if older than 5 min) */
+/* Auto-refresh every hour and when tab regains focus */
+let updateProgressInterval;
+
+function startUpdateProgress() {
+  const updateProgressEl = document.getElementById('updateProgress');
+  const progressFillEl = document.getElementById('progressFill');
+  const progressTextEl = document.getElementById('progressText');
+  
+  if (!updateProgressEl || !progressFillEl || !progressTextEl) return;
+  
+  updateProgressEl.style.display = 'flex';
+  
+  function updateProgress() {
+    const now = new Date();
+    const currentMinute = now.getUTCMinutes();
+    
+    // Calculate next update time (5th minute of next hour)
+    let nextUpdate = new Date(now);
+    if (currentMinute < 5) {
+      // If we're before 5 minutes, next update is at 5 minutes of current hour
+      nextUpdate.setUTCMinutes(5, 0, 0);
+    } else {
+      // If we're after 5 minutes, next update is at 5 minutes of next hour
+      nextUpdate.setUTCHours(nextUpdate.getUTCHours() + 1, 5, 0, 0);
+    }
+    
+    const timeUntilUpdate = nextUpdate.getTime() - now.getTime();
+    const minutesUntilUpdate = Math.ceil(timeUntilUpdate / (1000 * 60));
+    
+    // Calculate progress based on time since last 5-minute mark
+    const lastUpdate = new Date(now);
+    if (currentMinute >= 5) {
+      lastUpdate.setUTCMinutes(5, 0, 0);
+    } else {
+      lastUpdate.setUTCHours(lastUpdate.getUTCHours() - 1, 5, 0, 0);
+    }
+    
+    const timeSinceLastUpdate = now.getTime() - lastUpdate.getTime();
+    const totalCycleTime = 60 * 60 * 1000; // 60 minutes in milliseconds
+    const progressPercent = Math.max(0, Math.min(100, (timeSinceLastUpdate / totalCycleTime) * 100));
+    
+    progressFillEl.style.width = `${progressPercent}%`;
+    
+    if (minutesUntilUpdate > 0) {
+      progressTextEl.textContent = `Updates in ${minutesUntilUpdate}m`;
+    } else {
+      progressTextEl.textContent = 'Updating...';
+      // Trigger refresh when it's time
+      loadAllData().catch(console.error);
+    }
+  }
+  
+  updateProgress(); // Initial call
+  updateProgressInterval = setInterval(updateProgress, 60000); // Update every minute
+}
+
+// Auto-refresh when tab regains focus (if older than 5 min)
 document.addEventListener('visibilitychange', async () => {
   if (document.visibilityState === 'visible') {
     const STALE_MS = 5 * 60 * 1000;
@@ -864,6 +943,9 @@ document.addEventListener('visibilitychange', async () => {
     }
   }
 });
+
+// Start progress tracking after initial load
+setTimeout(startUpdateProgress, 1000);
 
 /* BOOT */
 loadAllData().catch(err => {
